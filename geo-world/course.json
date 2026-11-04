@@ -1,0 +1,4658 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ilyichv/muna-courses/main/schema/course.v1.json",
+  "id": "geo-world",
+  "version": "1.0.0",
+  "title": "Paesi del mondo",
+  "language": "it",
+  "kind": "mastery",
+  "color": "teal",
+  "units": [
+    {
+      "id": "europa-sud-ovest",
+      "title": "Europa occidentale e meridionale",
+      "cards": [
+        {
+          "id": "geo-ALB-map",
+          "type": "map",
+          "prompt": "Trova: Albania",
+          "map": "world",
+          "feature": "ALB"
+        },
+        {
+          "id": "geo-ALB-cap",
+          "type": "text",
+          "prompt": "Capitale: Albania",
+          "answers": [
+            "Tirana"
+          ]
+        },
+        {
+          "id": "geo-ALB-flag",
+          "type": "map",
+          "prompt": "Trova: 🇦🇱",
+          "map": "world",
+          "feature": "ALB",
+          "explanation": "Albania"
+        },
+        {
+          "id": "geo-AND-map",
+          "type": "map",
+          "prompt": "Trova: Andorra",
+          "map": "world",
+          "feature": "AND"
+        },
+        {
+          "id": "geo-AND-cap",
+          "type": "text",
+          "prompt": "Capitale: Andorra",
+          "answers": [
+            "Andorra la Vella"
+          ]
+        },
+        {
+          "id": "geo-AND-flag",
+          "type": "map",
+          "prompt": "Trova: 🇦🇩",
+          "map": "world",
+          "feature": "AND",
+          "explanation": "Andorra"
+        },
+        {
+          "id": "geo-AUT-map",
+          "type": "map",
+          "prompt": "Trova: Austria",
+          "map": "world",
+          "feature": "AUT"
+        },
+        {
+          "id": "geo-AUT-cap",
+          "type": "text",
+          "prompt": "Capitale: Austria",
+          "answers": [
+            "Vienna"
+          ]
+        },
+        {
+          "id": "geo-AUT-flag",
+          "type": "map",
+          "prompt": "Trova: 🇦🇹",
+          "map": "world",
+          "feature": "AUT",
+          "explanation": "Austria"
+        },
+        {
+          "id": "geo-BEL-map",
+          "type": "map",
+          "prompt": "Trova: Belgio",
+          "map": "world",
+          "feature": "BEL"
+        },
+        {
+          "id": "geo-BEL-cap",
+          "type": "text",
+          "prompt": "Capitale: Belgio",
+          "answers": [
+            "Bruxelles",
+            "Brussels"
+          ]
+        },
+        {
+          "id": "geo-BEL-flag",
+          "type": "map",
+          "prompt": "Trova: 🇧🇪",
+          "map": "world",
+          "feature": "BEL",
+          "explanation": "Belgio"
+        },
+        {
+          "id": "geo-BIH-map",
+          "type": "map",
+          "prompt": "Trova: Bosnia ed Erzegovina",
+          "map": "world",
+          "feature": "BIH"
+        },
+        {
+          "id": "geo-BIH-cap",
+          "type": "text",
+          "prompt": "Capitale: Bosnia ed Erzegovina",
+          "answers": [
+            "Sarajevo"
+          ]
+        },
+        {
+          "id": "geo-BIH-flag",
+          "type": "map",
+          "prompt": "Trova: 🇧🇦",
+          "map": "world",
+          "feature": "BIH",
+          "explanation": "Bosnia ed Erzegovina"
+        },
+        {
+          "id": "geo-VAT-map",
+          "type": "map",
+          "prompt": "Trova: Città del Vaticano",
+          "map": "world",
+          "feature": "VAT"
+        },
+        {
+          "id": "geo-VAT-cap",
+          "type": "text",
+          "prompt": "Capitale: Città del Vaticano",
+          "answers": [
+            "Città del Vaticano",
+            "Vatican City",
+            "Vaticano"
+          ]
+        },
+        {
+          "id": "geo-VAT-flag",
+          "type": "map",
+          "prompt": "Trova: 🇻🇦",
+          "map": "world",
+          "feature": "VAT",
+          "explanation": "Città del Vaticano"
+        },
+        {
+          "id": "geo-HRV-map",
+          "type": "map",
+          "prompt": "Trova: Croazia",
+          "map": "world",
+          "feature": "HRV"
+        },
+        {
+          "id": "geo-HRV-cap",
+          "type": "text",
+          "prompt": "Capitale: Croazia",
+          "answers": [
+            "Zagabria",
+            "Zagreb"
+          ]
+        },
+        {
+          "id": "geo-HRV-flag",
+          "type": "map",
+          "prompt": "Trova: 🇭🇷",
+          "map": "world",
+          "feature": "HRV",
+          "explanation": "Croazia"
+        },
+        {
+          "id": "geo-FRA-map",
+          "type": "map",
+          "prompt": "Trova: Francia",
+          "map": "world",
+          "feature": "FRA"
+        },
+        {
+          "id": "geo-FRA-cap",
+          "type": "text",
+          "prompt": "Capitale: Francia",
+          "answers": [
+            "Parigi",
+            "Paris"
+          ]
+        },
+        {
+          "id": "geo-FRA-flag",
+          "type": "map",
+          "prompt": "Trova: 🇫🇷",
+          "map": "world",
+          "feature": "FRA",
+          "explanation": "Francia"
+        },
+        {
+          "id": "geo-DEU-map",
+          "type": "map",
+          "prompt": "Trova: Germania",
+          "map": "world",
+          "feature": "DEU"
+        },
+        {
+          "id": "geo-DEU-cap",
+          "type": "text",
+          "prompt": "Capitale: Germania",
+          "answers": [
+            "Berlino",
+            "Berlin"
+          ]
+        },
+        {
+          "id": "geo-DEU-flag",
+          "type": "map",
+          "prompt": "Trova: 🇩🇪",
+          "map": "world",
+          "feature": "DEU",
+          "explanation": "Germania"
+        },
+        {
+          "id": "geo-GRC-map",
+          "type": "map",
+          "prompt": "Trova: Grecia",
+          "map": "world",
+          "feature": "GRC"
+        },
+        {
+          "id": "geo-GRC-cap",
+          "type": "text",
+          "prompt": "Capitale: Grecia",
+          "answers": [
+            "Atene",
+            "Athens"
+          ]
+        },
+        {
+          "id": "geo-GRC-flag",
+          "type": "map",
+          "prompt": "Trova: 🇬🇷",
+          "map": "world",
+          "feature": "GRC",
+          "explanation": "Grecia"
+        },
+        {
+          "id": "geo-ITA-map",
+          "type": "map",
+          "prompt": "Trova: Italia",
+          "map": "world",
+          "feature": "ITA"
+        },
+        {
+          "id": "geo-ITA-cap",
+          "type": "text",
+          "prompt": "Capitale: Italia",
+          "answers": [
+            "Roma",
+            "Rome"
+          ]
+        },
+        {
+          "id": "geo-ITA-flag",
+          "type": "map",
+          "prompt": "Trova: 🇮🇹",
+          "map": "world",
+          "feature": "ITA",
+          "explanation": "Italia"
+        },
+        {
+          "id": "geo-LIE-map",
+          "type": "map",
+          "prompt": "Trova: Liechtenstein",
+          "map": "world",
+          "feature": "LIE"
+        },
+        {
+          "id": "geo-LIE-cap",
+          "type": "text",
+          "prompt": "Capitale: Liechtenstein",
+          "answers": [
+            "Vaduz"
+          ]
+        },
+        {
+          "id": "geo-LIE-flag",
+          "type": "map",
+          "prompt": "Trova: 🇱🇮",
+          "map": "world",
+          "feature": "LIE",
+          "explanation": "Liechtenstein"
+        },
+        {
+          "id": "geo-LUX-map",
+          "type": "map",
+          "prompt": "Trova: Lussemburgo",
+          "map": "world",
+          "feature": "LUX"
+        },
+        {
+          "id": "geo-LUX-cap",
+          "type": "text",
+          "prompt": "Capitale: Lussemburgo",
+          "answers": [
+            "Lussemburgo",
+            "Luxembourg"
+          ]
+        },
+        {
+          "id": "geo-LUX-flag",
+          "type": "map",
+          "prompt": "Trova: 🇱🇺",
+          "map": "world",
+          "feature": "LUX",
+          "explanation": "Lussemburgo"
+        },
+        {
+          "id": "geo-MKD-map",
+          "type": "map",
+          "prompt": "Trova: Macedonia del Nord",
+          "map": "world",
+          "feature": "MKD"
+        },
+        {
+          "id": "geo-MKD-cap",
+          "type": "text",
+          "prompt": "Capitale: Macedonia del Nord",
+          "answers": [
+            "Skopje"
+          ]
+        },
+        {
+          "id": "geo-MKD-flag",
+          "type": "map",
+          "prompt": "Trova: 🇲🇰",
+          "map": "world",
+          "feature": "MKD",
+          "explanation": "Macedonia del Nord"
+        },
+        {
+          "id": "geo-MLT-map",
+          "type": "map",
+          "prompt": "Trova: Malta",
+          "map": "world",
+          "feature": "MLT"
+        },
+        {
+          "id": "geo-MLT-cap",
+          "type": "text",
+          "prompt": "Capitale: Malta",
+          "answers": [
+            "La Valletta",
+            "Valletta"
+          ]
+        },
+        {
+          "id": "geo-MLT-flag",
+          "type": "map",
+          "prompt": "Trova: 🇲🇹",
+          "map": "world",
+          "feature": "MLT",
+          "explanation": "Malta"
+        },
+        {
+          "id": "geo-MCO-map",
+          "type": "map",
+          "prompt": "Trova: Monaco",
+          "map": "world",
+          "feature": "MCO"
+        },
+        {
+          "id": "geo-MCO-cap",
+          "type": "text",
+          "prompt": "Capitale: Monaco",
+          "answers": [
+            "Monaco"
+          ]
+        },
+        {
+          "id": "geo-MCO-flag",
+          "type": "map",
+          "prompt": "Trova: 🇲🇨",
+          "map": "world",
+          "feature": "MCO",
+          "explanation": "Monaco"
+        },
+        {
+          "id": "geo-MNE-map",
+          "type": "map",
+          "prompt": "Trova: Montenegro",
+          "map": "world",
+          "feature": "MNE"
+        },
+        {
+          "id": "geo-MNE-cap",
+          "type": "text",
+          "prompt": "Capitale: Montenegro",
+          "answers": [
+            "Podgorica"
+          ]
+        },
+        {
+          "id": "geo-MNE-flag",
+          "type": "map",
+          "prompt": "Trova: 🇲🇪",
+          "map": "world",
+          "feature": "MNE",
+          "explanation": "Montenegro"
+        },
+        {
+          "id": "geo-NLD-map",
+          "type": "map",
+          "prompt": "Trova: Paesi Bassi",
+          "map": "world",
+          "feature": "NLD"
+        },
+        {
+          "id": "geo-NLD-cap",
+          "type": "text",
+          "prompt": "Capitale: Paesi Bassi",
+          "answers": [
+            "Amsterdam"
+          ]
+        },
+        {
+          "id": "geo-NLD-flag",
+          "type": "map",
+          "prompt": "Trova: 🇳🇱",
+          "map": "world",
+          "feature": "NLD",
+          "explanation": "Paesi Bassi"
+        },
+        {
+          "id": "geo-PRT-map",
+          "type": "map",
+          "prompt": "Trova: Portogallo",
+          "map": "world",
+          "feature": "PRT"
+        },
+        {
+          "id": "geo-PRT-cap",
+          "type": "text",
+          "prompt": "Capitale: Portogallo",
+          "answers": [
+            "Lisbona",
+            "Lisbon"
+          ]
+        },
+        {
+          "id": "geo-PRT-flag",
+          "type": "map",
+          "prompt": "Trova: 🇵🇹",
+          "map": "world",
+          "feature": "PRT",
+          "explanation": "Portogallo"
+        },
+        {
+          "id": "geo-SMR-map",
+          "type": "map",
+          "prompt": "Trova: San Marino",
+          "map": "world",
+          "feature": "SMR"
+        },
+        {
+          "id": "geo-SMR-cap",
+          "type": "text",
+          "prompt": "Capitale: San Marino",
+          "answers": [
+            "Città di San Marino",
+            "San Marino"
+          ]
+        },
+        {
+          "id": "geo-SMR-flag",
+          "type": "map",
+          "prompt": "Trova: 🇸🇲",
+          "map": "world",
+          "feature": "SMR",
+          "explanation": "San Marino"
+        },
+        {
+          "id": "geo-SRB-map",
+          "type": "map",
+          "prompt": "Trova: Serbia",
+          "map": "world",
+          "feature": "SRB"
+        },
+        {
+          "id": "geo-SRB-cap",
+          "type": "text",
+          "prompt": "Capitale: Serbia",
+          "answers": [
+            "Belgrado",
+            "Belgrade"
+          ]
+        },
+        {
+          "id": "geo-SRB-flag",
+          "type": "map",
+          "prompt": "Trova: 🇷🇸",
+          "map": "world",
+          "feature": "SRB",
+          "explanation": "Serbia"
+        },
+        {
+          "id": "geo-SVN-map",
+          "type": "map",
+          "prompt": "Trova: Slovenia",
+          "map": "world",
+          "feature": "SVN"
+        },
+        {
+          "id": "geo-SVN-cap",
+          "type": "text",
+          "prompt": "Capitale: Slovenia",
+          "answers": [
+            "Lubiana",
+            "Ljubljana"
+          ]
+        },
+        {
+          "id": "geo-SVN-flag",
+          "type": "map",
+          "prompt": "Trova: 🇸🇮",
+          "map": "world",
+          "feature": "SVN",
+          "explanation": "Slovenia"
+        },
+        {
+          "id": "geo-ESP-map",
+          "type": "map",
+          "prompt": "Trova: Spagna",
+          "map": "world",
+          "feature": "ESP"
+        },
+        {
+          "id": "geo-ESP-cap",
+          "type": "text",
+          "prompt": "Capitale: Spagna",
+          "answers": [
+            "Madrid"
+          ]
+        },
+        {
+          "id": "geo-ESP-flag",
+          "type": "map",
+          "prompt": "Trova: 🇪🇸",
+          "map": "world",
+          "feature": "ESP",
+          "explanation": "Spagna"
+        },
+        {
+          "id": "geo-CHE-map",
+          "type": "map",
+          "prompt": "Trova: Svizzera",
+          "map": "world",
+          "feature": "CHE"
+        },
+        {
+          "id": "geo-CHE-cap",
+          "type": "text",
+          "prompt": "Capitale: Svizzera",
+          "answers": [
+            "Berna",
+            "Bern"
+          ]
+        },
+        {
+          "id": "geo-CHE-flag",
+          "type": "map",
+          "prompt": "Trova: 🇨🇭",
+          "map": "world",
+          "feature": "CHE",
+          "explanation": "Svizzera"
+        }
+      ]
+    },
+    {
+      "id": "europa-nord-est",
+      "title": "Europa settentrionale e orientale",
+      "cards": [
+        {
+          "id": "geo-BLR-map",
+          "type": "map",
+          "prompt": "Trova: Bielorussia",
+          "map": "world",
+          "feature": "BLR"
+        },
+        {
+          "id": "geo-BLR-cap",
+          "type": "text",
+          "prompt": "Capitale: Bielorussia",
+          "answers": [
+            "Minsk"
+          ]
+        },
+        {
+          "id": "geo-BLR-flag",
+          "type": "map",
+          "prompt": "Trova: 🇧🇾",
+          "map": "world",
+          "feature": "BLR",
+          "explanation": "Bielorussia"
+        },
+        {
+          "id": "geo-BGR-map",
+          "type": "map",
+          "prompt": "Trova: Bulgaria",
+          "map": "world",
+          "feature": "BGR"
+        },
+        {
+          "id": "geo-BGR-cap",
+          "type": "text",
+          "prompt": "Capitale: Bulgaria",
+          "answers": [
+            "Sofia"
+          ]
+        },
+        {
+          "id": "geo-BGR-flag",
+          "type": "map",
+          "prompt": "Trova: 🇧🇬",
+          "map": "world",
+          "feature": "BGR",
+          "explanation": "Bulgaria"
+        },
+        {
+          "id": "geo-CZE-map",
+          "type": "map",
+          "prompt": "Trova: Cechia",
+          "map": "world",
+          "feature": "CZE"
+        },
+        {
+          "id": "geo-CZE-cap",
+          "type": "text",
+          "prompt": "Capitale: Cechia",
+          "answers": [
+            "Praga",
+            "Prague"
+          ]
+        },
+        {
+          "id": "geo-CZE-flag",
+          "type": "map",
+          "prompt": "Trova: 🇨🇿",
+          "map": "world",
+          "feature": "CZE",
+          "explanation": "Cechia"
+        },
+        {
+          "id": "geo-DNK-map",
+          "type": "map",
+          "prompt": "Trova: Danimarca",
+          "map": "world",
+          "feature": "DNK"
+        },
+        {
+          "id": "geo-DNK-cap",
+          "type": "text",
+          "prompt": "Capitale: Danimarca",
+          "answers": [
+            "Copenaghen",
+            "Copenhagen"
+          ]
+        },
+        {
+          "id": "geo-DNK-flag",
+          "type": "map",
+          "prompt": "Trova: 🇩🇰",
+          "map": "world",
+          "feature": "DNK",
+          "explanation": "Danimarca"
+        },
+        {
+          "id": "geo-EST-map",
+          "type": "map",
+          "prompt": "Trova: Estonia",
+          "map": "world",
+          "feature": "EST"
+        },
+        {
+          "id": "geo-EST-cap",
+          "type": "text",
+          "prompt": "Capitale: Estonia",
+          "answers": [
+            "Tallinn"
+          ]
+        },
+        {
+          "id": "geo-EST-flag",
+          "type": "map",
+          "prompt": "Trova: 🇪🇪",
+          "map": "world",
+          "feature": "EST",
+          "explanation": "Estonia"
+        },
+        {
+          "id": "geo-FIN-map",
+          "type": "map",
+          "prompt": "Trova: Finlandia",
+          "map": "world",
+          "feature": "FIN"
+        },
+        {
+          "id": "geo-FIN-cap",
+          "type": "text",
+          "prompt": "Capitale: Finlandia",
+          "answers": [
+            "Helsinki"
+          ]
+        },
+        {
+          "id": "geo-FIN-flag",
+          "type": "map",
+          "prompt": "Trova: 🇫🇮",
+          "map": "world",
+          "feature": "FIN",
+          "explanation": "Finlandia"
+        },
+        {
+          "id": "geo-IRL-map",
+          "type": "map",
+          "prompt": "Trova: Irlanda",
+          "map": "world",
+          "feature": "IRL"
+        },
+        {
+          "id": "geo-IRL-cap",
+          "type": "text",
+          "prompt": "Capitale: Irlanda",
+          "answers": [
+            "Dublino",
+            "Dublin"
+          ]
+        },
+        {
+          "id": "geo-IRL-flag",
+          "type": "map",
+          "prompt": "Trova: 🇮🇪",
+          "map": "world",
+          "feature": "IRL",
+          "explanation": "Irlanda"
+        },
+        {
+          "id": "geo-ISL-map",
+          "type": "map",
+          "prompt": "Trova: Islanda",
+          "map": "world",
+          "feature": "ISL"
+        },
+        {
+          "id": "geo-ISL-cap",
+          "type": "text",
+          "prompt": "Capitale: Islanda",
+          "answers": [
+            "Reykjavík"
+          ]
+        },
+        {
+          "id": "geo-ISL-flag",
+          "type": "map",
+          "prompt": "Trova: 🇮🇸",
+          "map": "world",
+          "feature": "ISL",
+          "explanation": "Islanda"
+        },
+        {
+          "id": "geo-LVA-map",
+          "type": "map",
+          "prompt": "Trova: Lettonia",
+          "map": "world",
+          "feature": "LVA"
+        },
+        {
+          "id": "geo-LVA-cap",
+          "type": "text",
+          "prompt": "Capitale: Lettonia",
+          "answers": [
+            "Riga"
+          ]
+        },
+        {
+          "id": "geo-LVA-flag",
+          "type": "map",
+          "prompt": "Trova: 🇱🇻",
+          "map": "world",
+          "feature": "LVA",
+          "explanation": "Lettonia"
+        },
+        {
+          "id": "geo-LTU-map",
+          "type": "map",
+          "prompt": "Trova: Lituania",
+          "map": "world",
+          "feature": "LTU"
+        },
+        {
+          "id": "geo-LTU-cap",
+          "type": "text",
+          "prompt": "Capitale: Lituania",
+          "answers": [
+            "Vilnius"
+          ]
+        },
+        {
+          "id": "geo-LTU-flag",
+          "type": "map",
+          "prompt": "Trova: 🇱🇹",
+          "map": "world",
+          "feature": "LTU",
+          "explanation": "Lituania"
+        },
+        {
+          "id": "geo-MDA-map",
+          "type": "map",
+          "prompt": "Trova: Moldavia",
+          "map": "world",
+          "feature": "MDA"
+        },
+        {
+          "id": "geo-MDA-cap",
+          "type": "text",
+          "prompt": "Capitale: Moldavia",
+          "answers": [
+            "Chișinău"
+          ]
+        },
+        {
+          "id": "geo-MDA-flag",
+          "type": "map",
+          "prompt": "Trova: 🇲🇩",
+          "map": "world",
+          "feature": "MDA",
+          "explanation": "Moldavia"
+        },
+        {
+          "id": "geo-NOR-map",
+          "type": "map",
+          "prompt": "Trova: Norvegia",
+          "map": "world",
+          "feature": "NOR"
+        },
+        {
+          "id": "geo-NOR-cap",
+          "type": "text",
+          "prompt": "Capitale: Norvegia",
+          "answers": [
+            "Oslo"
+          ]
+        },
+        {
+          "id": "geo-NOR-flag",
+          "type": "map",
+          "prompt": "Trova: 🇳🇴",
+          "map": "world",
+          "feature": "NOR",
+          "explanation": "Norvegia"
+        },
+        {
+          "id": "geo-POL-map",
+          "type": "map",
+          "prompt": "Trova: Polonia",
+          "map": "world",
+          "feature": "POL"
+        },
+        {
+          "id": "geo-POL-cap",
+          "type": "text",
+          "prompt": "Capitale: Polonia",
+          "answers": [
+            "Varsavia",
+            "Warsaw"
+          ]
+        },
+        {
+          "id": "geo-POL-flag",
+          "type": "map",
+          "prompt": "Trova: 🇵🇱",
+          "map": "world",
+          "feature": "POL",
+          "explanation": "Polonia"
+        },
+        {
+          "id": "geo-GBR-map",
+          "type": "map",
+          "prompt": "Trova: Regno Unito",
+          "map": "world",
+          "feature": "GBR"
+        },
+        {
+          "id": "geo-GBR-cap",
+          "type": "text",
+          "prompt": "Capitale: Regno Unito",
+          "answers": [
+            "Londra",
+            "London"
+          ]
+        },
+        {
+          "id": "geo-GBR-flag",
+          "type": "map",
+          "prompt": "Trova: 🇬🇧",
+          "map": "world",
+          "feature": "GBR",
+          "explanation": "Regno Unito"
+        },
+        {
+          "id": "geo-ROU-map",
+          "type": "map",
+          "prompt": "Trova: Romania",
+          "map": "world",
+          "feature": "ROU"
+        },
+        {
+          "id": "geo-ROU-cap",
+          "type": "text",
+          "prompt": "Capitale: Romania",
+          "answers": [
+            "Bucarest",
+            "Bucharest"
+          ]
+        },
+        {
+          "id": "geo-ROU-flag",
+          "type": "map",
+          "prompt": "Trova: 🇷🇴",
+          "map": "world",
+          "feature": "ROU",
+          "explanation": "Romania"
+        },
+        {
+          "id": "geo-RUS-map",
+          "type": "map",
+          "prompt": "Trova: Russia",
+          "map": "world",
+          "feature": "RUS"
+        },
+        {
+          "id": "geo-RUS-cap",
+          "type": "text",
+          "prompt": "Capitale: Russia",
+          "answers": [
+            "Mosca",
+            "Moscow"
+          ]
+        },
+        {
+          "id": "geo-RUS-flag",
+          "type": "map",
+          "prompt": "Trova: 🇷🇺",
+          "map": "world",
+          "feature": "RUS",
+          "explanation": "Russia"
+        },
+        {
+          "id": "geo-SVK-map",
+          "type": "map",
+          "prompt": "Trova: Slovacchia",
+          "map": "world",
+          "feature": "SVK"
+        },
+        {
+          "id": "geo-SVK-cap",
+          "type": "text",
+          "prompt": "Capitale: Slovacchia",
+          "answers": [
+            "Bratislava"
+          ]
+        },
+        {
+          "id": "geo-SVK-flag",
+          "type": "map",
+          "prompt": "Trova: 🇸🇰",
+          "map": "world",
+          "feature": "SVK",
+          "explanation": "Slovacchia"
+        },
+        {
+          "id": "geo-SWE-map",
+          "type": "map",
+          "prompt": "Trova: Svezia",
+          "map": "world",
+          "feature": "SWE"
+        },
+        {
+          "id": "geo-SWE-cap",
+          "type": "text",
+          "prompt": "Capitale: Svezia",
+          "answers": [
+            "Stoccolma",
+            "Stockholm"
+          ]
+        },
+        {
+          "id": "geo-SWE-flag",
+          "type": "map",
+          "prompt": "Trova: 🇸🇪",
+          "map": "world",
+          "feature": "SWE",
+          "explanation": "Svezia"
+        },
+        {
+          "id": "geo-UKR-map",
+          "type": "map",
+          "prompt": "Trova: Ucraina",
+          "map": "world",
+          "feature": "UKR"
+        },
+        {
+          "id": "geo-UKR-cap",
+          "type": "text",
+          "prompt": "Capitale: Ucraina",
+          "answers": [
+            "Kiev",
+            "Kyiv"
+          ]
+        },
+        {
+          "id": "geo-UKR-flag",
+          "type": "map",
+          "prompt": "Trova: 🇺🇦",
+          "map": "world",
+          "feature": "UKR",
+          "explanation": "Ucraina"
+        },
+        {
+          "id": "geo-HUN-map",
+          "type": "map",
+          "prompt": "Trova: Ungheria",
+          "map": "world",
+          "feature": "HUN"
+        },
+        {
+          "id": "geo-HUN-cap",
+          "type": "text",
+          "prompt": "Capitale: Ungheria",
+          "answers": [
+            "Budapest"
+          ]
+        },
+        {
+          "id": "geo-HUN-flag",
+          "type": "map",
+          "prompt": "Trova: 🇭🇺",
+          "map": "world",
+          "feature": "HUN",
+          "explanation": "Ungheria"
+        }
+      ]
+    },
+    {
+      "id": "america-nord-centro",
+      "title": "Nord America, America centrale e Caraibi",
+      "cards": [
+        {
+          "id": "geo-ATG-map",
+          "type": "map",
+          "prompt": "Trova: Antigua e Barbuda",
+          "map": "world",
+          "feature": "ATG"
+        },
+        {
+          "id": "geo-ATG-cap",
+          "type": "text",
+          "prompt": "Capitale: Antigua e Barbuda",
+          "answers": [
+            "Saint John's",
+            "St. John's"
+          ]
+        },
+        {
+          "id": "geo-ATG-flag",
+          "type": "map",
+          "prompt": "Trova: 🇦🇬",
+          "map": "world",
+          "feature": "ATG",
+          "explanation": "Antigua e Barbuda"
+        },
+        {
+          "id": "geo-BHS-map",
+          "type": "map",
+          "prompt": "Trova: Bahamas",
+          "map": "world",
+          "feature": "BHS"
+        },
+        {
+          "id": "geo-BHS-cap",
+          "type": "text",
+          "prompt": "Capitale: Bahamas",
+          "answers": [
+            "Nassau"
+          ]
+        },
+        {
+          "id": "geo-BHS-flag",
+          "type": "map",
+          "prompt": "Trova: 🇧🇸",
+          "map": "world",
+          "feature": "BHS",
+          "explanation": "Bahamas"
+        },
+        {
+          "id": "geo-BRB-map",
+          "type": "map",
+          "prompt": "Trova: Barbados",
+          "map": "world",
+          "feature": "BRB"
+        },
+        {
+          "id": "geo-BRB-cap",
+          "type": "text",
+          "prompt": "Capitale: Barbados",
+          "answers": [
+            "Bridgetown"
+          ]
+        },
+        {
+          "id": "geo-BRB-flag",
+          "type": "map",
+          "prompt": "Trova: 🇧🇧",
+          "map": "world",
+          "feature": "BRB",
+          "explanation": "Barbados"
+        },
+        {
+          "id": "geo-BLZ-map",
+          "type": "map",
+          "prompt": "Trova: Belize",
+          "map": "world",
+          "feature": "BLZ"
+        },
+        {
+          "id": "geo-BLZ-cap",
+          "type": "text",
+          "prompt": "Capitale: Belize",
+          "answers": [
+            "Belmopan"
+          ]
+        },
+        {
+          "id": "geo-BLZ-flag",
+          "type": "map",
+          "prompt": "Trova: 🇧🇿",
+          "map": "world",
+          "feature": "BLZ",
+          "explanation": "Belize"
+        },
+        {
+          "id": "geo-CAN-map",
+          "type": "map",
+          "prompt": "Trova: Canada",
+          "map": "world",
+          "feature": "CAN"
+        },
+        {
+          "id": "geo-CAN-cap",
+          "type": "text",
+          "prompt": "Capitale: Canada",
+          "answers": [
+            "Ottawa"
+          ]
+        },
+        {
+          "id": "geo-CAN-flag",
+          "type": "map",
+          "prompt": "Trova: 🇨🇦",
+          "map": "world",
+          "feature": "CAN",
+          "explanation": "Canada"
+        },
+        {
+          "id": "geo-CRI-map",
+          "type": "map",
+          "prompt": "Trova: Costa Rica",
+          "map": "world",
+          "feature": "CRI"
+        },
+        {
+          "id": "geo-CRI-cap",
+          "type": "text",
+          "prompt": "Capitale: Costa Rica",
+          "answers": [
+            "San José"
+          ]
+        },
+        {
+          "id": "geo-CRI-flag",
+          "type": "map",
+          "prompt": "Trova: 🇨🇷",
+          "map": "world",
+          "feature": "CRI",
+          "explanation": "Costa Rica"
+        },
+        {
+          "id": "geo-CUB-map",
+          "type": "map",
+          "prompt": "Trova: Cuba",
+          "map": "world",
+          "feature": "CUB"
+        },
+        {
+          "id": "geo-CUB-cap",
+          "type": "text",
+          "prompt": "Capitale: Cuba",
+          "answers": [
+            "L'Avana",
+            "Havana",
+            "Avana"
+          ]
+        },
+        {
+          "id": "geo-CUB-flag",
+          "type": "map",
+          "prompt": "Trova: 🇨🇺",
+          "map": "world",
+          "feature": "CUB",
+          "explanation": "Cuba"
+        },
+        {
+          "id": "geo-DMA-map",
+          "type": "map",
+          "prompt": "Trova: Dominica",
+          "map": "world",
+          "feature": "DMA"
+        },
+        {
+          "id": "geo-DMA-cap",
+          "type": "text",
+          "prompt": "Capitale: Dominica",
+          "answers": [
+            "Roseau"
+          ]
+        },
+        {
+          "id": "geo-DMA-flag",
+          "type": "map",
+          "prompt": "Trova: 🇩🇲",
+          "map": "world",
+          "feature": "DMA",
+          "explanation": "Dominica"
+        },
+        {
+          "id": "geo-SLV-map",
+          "type": "map",
+          "prompt": "Trova: El Salvador",
+          "map": "world",
+          "feature": "SLV"
+        },
+        {
+          "id": "geo-SLV-cap",
+          "type": "text",
+          "prompt": "Capitale: El Salvador",
+          "answers": [
+            "San Salvador"
+          ]
+        },
+        {
+          "id": "geo-SLV-flag",
+          "type": "map",
+          "prompt": "Trova: 🇸🇻",
+          "map": "world",
+          "feature": "SLV",
+          "explanation": "El Salvador"
+        },
+        {
+          "id": "geo-JAM-map",
+          "type": "map",
+          "prompt": "Trova: Giamaica",
+          "map": "world",
+          "feature": "JAM"
+        },
+        {
+          "id": "geo-JAM-cap",
+          "type": "text",
+          "prompt": "Capitale: Giamaica",
+          "answers": [
+            "Kingston"
+          ]
+        },
+        {
+          "id": "geo-JAM-flag",
+          "type": "map",
+          "prompt": "Trova: 🇯🇲",
+          "map": "world",
+          "feature": "JAM",
+          "explanation": "Giamaica"
+        },
+        {
+          "id": "geo-GRD-map",
+          "type": "map",
+          "prompt": "Trova: Grenada",
+          "map": "world",
+          "feature": "GRD"
+        },
+        {
+          "id": "geo-GRD-cap",
+          "type": "text",
+          "prompt": "Capitale: Grenada",
+          "answers": [
+            "Saint George's",
+            "St. George's"
+          ]
+        },
+        {
+          "id": "geo-GRD-flag",
+          "type": "map",
+          "prompt": "Trova: 🇬🇩",
+          "map": "world",
+          "feature": "GRD",
+          "explanation": "Grenada"
+        },
+        {
+          "id": "geo-GTM-map",
+          "type": "map",
+          "prompt": "Trova: Guatemala",
+          "map": "world",
+          "feature": "GTM"
+        },
+        {
+          "id": "geo-GTM-cap",
+          "type": "text",
+          "prompt": "Capitale: Guatemala",
+          "answers": [
+            "Città del Guatemala",
+            "Guatemala City",
+            "Guatemala"
+          ]
+        },
+        {
+          "id": "geo-GTM-flag",
+          "type": "map",
+          "prompt": "Trova: 🇬🇹",
+          "map": "world",
+          "feature": "GTM",
+          "explanation": "Guatemala"
+        },
+        {
+          "id": "geo-HTI-map",
+          "type": "map",
+          "prompt": "Trova: Haiti",
+          "map": "world",
+          "feature": "HTI"
+        },
+        {
+          "id": "geo-HTI-cap",
+          "type": "text",
+          "prompt": "Capitale: Haiti",
+          "answers": [
+            "Port-au-Prince",
+            "Port au Prince"
+          ]
+        },
+        {
+          "id": "geo-HTI-flag",
+          "type": "map",
+          "prompt": "Trova: 🇭🇹",
+          "map": "world",
+          "feature": "HTI",
+          "explanation": "Haiti"
+        },
+        {
+          "id": "geo-HND-map",
+          "type": "map",
+          "prompt": "Trova: Honduras",
+          "map": "world",
+          "feature": "HND"
+        },
+        {
+          "id": "geo-HND-cap",
+          "type": "text",
+          "prompt": "Capitale: Honduras",
+          "answers": [
+            "Tegucigalpa"
+          ]
+        },
+        {
+          "id": "geo-HND-flag",
+          "type": "map",
+          "prompt": "Trova: 🇭🇳",
+          "map": "world",
+          "feature": "HND",
+          "explanation": "Honduras"
+        },
+        {
+          "id": "geo-MEX-map",
+          "type": "map",
+          "prompt": "Trova: Messico",
+          "map": "world",
+          "feature": "MEX"
+        },
+        {
+          "id": "geo-MEX-cap",
+          "type": "text",
+          "prompt": "Capitale: Messico",
+          "answers": [
+            "Città del Messico",
+            "Mexico City"
+          ]
+        },
+        {
+          "id": "geo-MEX-flag",
+          "type": "map",
+          "prompt": "Trova: 🇲🇽",
+          "map": "world",
+          "feature": "MEX",
+          "explanation": "Messico"
+        },
+        {
+          "id": "geo-NIC-map",
+          "type": "map",
+          "prompt": "Trova: Nicaragua",
+          "map": "world",
+          "feature": "NIC"
+        },
+        {
+          "id": "geo-NIC-cap",
+          "type": "text",
+          "prompt": "Capitale: Nicaragua",
+          "answers": [
+            "Managua"
+          ]
+        },
+        {
+          "id": "geo-NIC-flag",
+          "type": "map",
+          "prompt": "Trova: 🇳🇮",
+          "map": "world",
+          "feature": "NIC",
+          "explanation": "Nicaragua"
+        },
+        {
+          "id": "geo-PAN-map",
+          "type": "map",
+          "prompt": "Trova: Panama",
+          "map": "world",
+          "feature": "PAN"
+        },
+        {
+          "id": "geo-PAN-cap",
+          "type": "text",
+          "prompt": "Capitale: Panama",
+          "answers": [
+            "Panama",
+            "Panama City",
+            "Città di Panama"
+          ]
+        },
+        {
+          "id": "geo-PAN-flag",
+          "type": "map",
+          "prompt": "Trova: 🇵🇦",
+          "map": "world",
+          "feature": "PAN",
+          "explanation": "Panama"
+        },
+        {
+          "id": "geo-DOM-map",
+          "type": "map",
+          "prompt": "Trova: Repubblica Dominicana",
+          "map": "world",
+          "feature": "DOM"
+        },
+        {
+          "id": "geo-DOM-cap",
+          "type": "text",
+          "prompt": "Capitale: Repubblica Dominicana",
+          "answers": [
+            "Santo Domingo"
+          ]
+        },
+        {
+          "id": "geo-DOM-flag",
+          "type": "map",
+          "prompt": "Trova: 🇩🇴",
+          "map": "world",
+          "feature": "DOM",
+          "explanation": "Repubblica Dominicana"
+        },
+        {
+          "id": "geo-KNA-map",
+          "type": "map",
+          "prompt": "Trova: Saint Kitts e Nevis",
+          "map": "world",
+          "feature": "KNA"
+        },
+        {
+          "id": "geo-KNA-cap",
+          "type": "text",
+          "prompt": "Capitale: Saint Kitts e Nevis",
+          "answers": [
+            "Basseterre"
+          ]
+        },
+        {
+          "id": "geo-KNA-flag",
+          "type": "map",
+          "prompt": "Trova: 🇰🇳",
+          "map": "world",
+          "feature": "KNA",
+          "explanation": "Saint Kitts e Nevis"
+        },
+        {
+          "id": "geo-LCA-map",
+          "type": "map",
+          "prompt": "Trova: Saint Lucia",
+          "map": "world",
+          "feature": "LCA"
+        },
+        {
+          "id": "geo-LCA-cap",
+          "type": "text",
+          "prompt": "Capitale: Saint Lucia",
+          "answers": [
+            "Castries"
+          ]
+        },
+        {
+          "id": "geo-LCA-flag",
+          "type": "map",
+          "prompt": "Trova: 🇱🇨",
+          "map": "world",
+          "feature": "LCA",
+          "explanation": "Saint Lucia"
+        },
+        {
+          "id": "geo-VCT-map",
+          "type": "map",
+          "prompt": "Trova: Saint Vincent e Grenadine",
+          "map": "world",
+          "feature": "VCT"
+        },
+        {
+          "id": "geo-VCT-cap",
+          "type": "text",
+          "prompt": "Capitale: Saint Vincent e Grenadine",
+          "answers": [
+            "Kingstown"
+          ]
+        },
+        {
+          "id": "geo-VCT-flag",
+          "type": "map",
+          "prompt": "Trova: 🇻🇨",
+          "map": "world",
+          "feature": "VCT",
+          "explanation": "Saint Vincent e Grenadine"
+        },
+        {
+          "id": "geo-USA-map",
+          "type": "map",
+          "prompt": "Trova: Stati Uniti",
+          "map": "world",
+          "feature": "USA"
+        },
+        {
+          "id": "geo-USA-cap",
+          "type": "text",
+          "prompt": "Capitale: Stati Uniti",
+          "answers": [
+            "Washington",
+            "Washington, D.C."
+          ]
+        },
+        {
+          "id": "geo-USA-flag",
+          "type": "map",
+          "prompt": "Trova: 🇺🇸",
+          "map": "world",
+          "feature": "USA",
+          "explanation": "Stati Uniti"
+        },
+        {
+          "id": "geo-TTO-map",
+          "type": "map",
+          "prompt": "Trova: Trinidad e Tobago",
+          "map": "world",
+          "feature": "TTO"
+        },
+        {
+          "id": "geo-TTO-cap",
+          "type": "text",
+          "prompt": "Capitale: Trinidad e Tobago",
+          "answers": [
+            "Port of Spain",
+            "Port-of-Spain"
+          ]
+        },
+        {
+          "id": "geo-TTO-flag",
+          "type": "map",
+          "prompt": "Trova: 🇹🇹",
+          "map": "world",
+          "feature": "TTO",
+          "explanation": "Trinidad e Tobago"
+        }
+      ]
+    },
+    {
+      "id": "america-sud",
+      "title": "America del Sud",
+      "cards": [
+        {
+          "id": "geo-ARG-map",
+          "type": "map",
+          "prompt": "Trova: Argentina",
+          "map": "world",
+          "feature": "ARG"
+        },
+        {
+          "id": "geo-ARG-cap",
+          "type": "text",
+          "prompt": "Capitale: Argentina",
+          "answers": [
+            "Buenos Aires"
+          ]
+        },
+        {
+          "id": "geo-ARG-flag",
+          "type": "map",
+          "prompt": "Trova: 🇦🇷",
+          "map": "world",
+          "feature": "ARG",
+          "explanation": "Argentina"
+        },
+        {
+          "id": "geo-BOL-map",
+          "type": "map",
+          "prompt": "Trova: Bolivia",
+          "map": "world",
+          "feature": "BOL"
+        },
+        {
+          "id": "geo-BOL-cap",
+          "type": "text",
+          "prompt": "Capitale: Bolivia",
+          "answers": [
+            "Sucre",
+            "La Paz"
+          ],
+          "explanation": "Capitali: Sucre e La Paz."
+        },
+        {
+          "id": "geo-BOL-flag",
+          "type": "map",
+          "prompt": "Trova: 🇧🇴",
+          "map": "world",
+          "feature": "BOL",
+          "explanation": "Bolivia"
+        },
+        {
+          "id": "geo-BRA-map",
+          "type": "map",
+          "prompt": "Trova: Brasile",
+          "map": "world",
+          "feature": "BRA"
+        },
+        {
+          "id": "geo-BRA-cap",
+          "type": "text",
+          "prompt": "Capitale: Brasile",
+          "answers": [
+            "Brasilia"
+          ]
+        },
+        {
+          "id": "geo-BRA-flag",
+          "type": "map",
+          "prompt": "Trova: 🇧🇷",
+          "map": "world",
+          "feature": "BRA",
+          "explanation": "Brasile"
+        },
+        {
+          "id": "geo-CHL-map",
+          "type": "map",
+          "prompt": "Trova: Cile",
+          "map": "world",
+          "feature": "CHL"
+        },
+        {
+          "id": "geo-CHL-cap",
+          "type": "text",
+          "prompt": "Capitale: Cile",
+          "answers": [
+            "Santiago del Cile",
+            "Santiago"
+          ]
+        },
+        {
+          "id": "geo-CHL-flag",
+          "type": "map",
+          "prompt": "Trova: 🇨🇱",
+          "map": "world",
+          "feature": "CHL",
+          "explanation": "Cile"
+        },
+        {
+          "id": "geo-COL-map",
+          "type": "map",
+          "prompt": "Trova: Colombia",
+          "map": "world",
+          "feature": "COL"
+        },
+        {
+          "id": "geo-COL-cap",
+          "type": "text",
+          "prompt": "Capitale: Colombia",
+          "answers": [
+            "Bogotà"
+          ]
+        },
+        {
+          "id": "geo-COL-flag",
+          "type": "map",
+          "prompt": "Trova: 🇨🇴",
+          "map": "world",
+          "feature": "COL",
+          "explanation": "Colombia"
+        },
+        {
+          "id": "geo-ECU-map",
+          "type": "map",
+          "prompt": "Trova: Ecuador",
+          "map": "world",
+          "feature": "ECU"
+        },
+        {
+          "id": "geo-ECU-cap",
+          "type": "text",
+          "prompt": "Capitale: Ecuador",
+          "answers": [
+            "Quito"
+          ]
+        },
+        {
+          "id": "geo-ECU-flag",
+          "type": "map",
+          "prompt": "Trova: 🇪🇨",
+          "map": "world",
+          "feature": "ECU",
+          "explanation": "Ecuador"
+        },
+        {
+          "id": "geo-GUY-map",
+          "type": "map",
+          "prompt": "Trova: Guyana",
+          "map": "world",
+          "feature": "GUY"
+        },
+        {
+          "id": "geo-GUY-cap",
+          "type": "text",
+          "prompt": "Capitale: Guyana",
+          "answers": [
+            "Georgetown"
+          ]
+        },
+        {
+          "id": "geo-GUY-flag",
+          "type": "map",
+          "prompt": "Trova: 🇬🇾",
+          "map": "world",
+          "feature": "GUY",
+          "explanation": "Guyana"
+        },
+        {
+          "id": "geo-PRY-map",
+          "type": "map",
+          "prompt": "Trova: Paraguay",
+          "map": "world",
+          "feature": "PRY"
+        },
+        {
+          "id": "geo-PRY-cap",
+          "type": "text",
+          "prompt": "Capitale: Paraguay",
+          "answers": [
+            "Asunción"
+          ]
+        },
+        {
+          "id": "geo-PRY-flag",
+          "type": "map",
+          "prompt": "Trova: 🇵🇾",
+          "map": "world",
+          "feature": "PRY",
+          "explanation": "Paraguay"
+        },
+        {
+          "id": "geo-PER-map",
+          "type": "map",
+          "prompt": "Trova: Perù",
+          "map": "world",
+          "feature": "PER"
+        },
+        {
+          "id": "geo-PER-cap",
+          "type": "text",
+          "prompt": "Capitale: Perù",
+          "answers": [
+            "Lima"
+          ]
+        },
+        {
+          "id": "geo-PER-flag",
+          "type": "map",
+          "prompt": "Trova: 🇵🇪",
+          "map": "world",
+          "feature": "PER",
+          "explanation": "Perù"
+        },
+        {
+          "id": "geo-SUR-map",
+          "type": "map",
+          "prompt": "Trova: Suriname",
+          "map": "world",
+          "feature": "SUR"
+        },
+        {
+          "id": "geo-SUR-cap",
+          "type": "text",
+          "prompt": "Capitale: Suriname",
+          "answers": [
+            "Paramaribo"
+          ]
+        },
+        {
+          "id": "geo-SUR-flag",
+          "type": "map",
+          "prompt": "Trova: 🇸🇷",
+          "map": "world",
+          "feature": "SUR",
+          "explanation": "Suriname"
+        },
+        {
+          "id": "geo-URY-map",
+          "type": "map",
+          "prompt": "Trova: Uruguay",
+          "map": "world",
+          "feature": "URY"
+        },
+        {
+          "id": "geo-URY-cap",
+          "type": "text",
+          "prompt": "Capitale: Uruguay",
+          "answers": [
+            "Montevideo"
+          ]
+        },
+        {
+          "id": "geo-URY-flag",
+          "type": "map",
+          "prompt": "Trova: 🇺🇾",
+          "map": "world",
+          "feature": "URY",
+          "explanation": "Uruguay"
+        },
+        {
+          "id": "geo-VEN-map",
+          "type": "map",
+          "prompt": "Trova: Venezuela",
+          "map": "world",
+          "feature": "VEN"
+        },
+        {
+          "id": "geo-VEN-cap",
+          "type": "text",
+          "prompt": "Capitale: Venezuela",
+          "answers": [
+            "Caracas"
+          ]
+        },
+        {
+          "id": "geo-VEN-flag",
+          "type": "map",
+          "prompt": "Trova: 🇻🇪",
+          "map": "world",
+          "feature": "VEN",
+          "explanation": "Venezuela"
+        }
+      ]
+    },
+    {
+      "id": "asia-ovest",
+      "title": "Asia occidentale",
+      "cards": [
+        {
+          "id": "geo-SAU-map",
+          "type": "map",
+          "prompt": "Trova: Arabia Saudita",
+          "map": "world",
+          "feature": "SAU"
+        },
+        {
+          "id": "geo-SAU-cap",
+          "type": "text",
+          "prompt": "Capitale: Arabia Saudita",
+          "answers": [
+            "Riad",
+            "Riyadh"
+          ]
+        },
+        {
+          "id": "geo-SAU-flag",
+          "type": "map",
+          "prompt": "Trova: 🇸🇦",
+          "map": "world",
+          "feature": "SAU",
+          "explanation": "Arabia Saudita"
+        },
+        {
+          "id": "geo-ARM-map",
+          "type": "map",
+          "prompt": "Trova: Armenia",
+          "map": "world",
+          "feature": "ARM"
+        },
+        {
+          "id": "geo-ARM-cap",
+          "type": "text",
+          "prompt": "Capitale: Armenia",
+          "answers": [
+            "Erevan",
+            "Yerevan"
+          ]
+        },
+        {
+          "id": "geo-ARM-flag",
+          "type": "map",
+          "prompt": "Trova: 🇦🇲",
+          "map": "world",
+          "feature": "ARM",
+          "explanation": "Armenia"
+        },
+        {
+          "id": "geo-AZE-map",
+          "type": "map",
+          "prompt": "Trova: Azerbaigian",
+          "map": "world",
+          "feature": "AZE"
+        },
+        {
+          "id": "geo-AZE-cap",
+          "type": "text",
+          "prompt": "Capitale: Azerbaigian",
+          "answers": [
+            "Baku"
+          ]
+        },
+        {
+          "id": "geo-AZE-flag",
+          "type": "map",
+          "prompt": "Trova: 🇦🇿",
+          "map": "world",
+          "feature": "AZE",
+          "explanation": "Azerbaigian"
+        },
+        {
+          "id": "geo-BHR-map",
+          "type": "map",
+          "prompt": "Trova: Bahrein",
+          "map": "world",
+          "feature": "BHR"
+        },
+        {
+          "id": "geo-BHR-cap",
+          "type": "text",
+          "prompt": "Capitale: Bahrein",
+          "answers": [
+            "Manama"
+          ]
+        },
+        {
+          "id": "geo-BHR-flag",
+          "type": "map",
+          "prompt": "Trova: 🇧🇭",
+          "map": "world",
+          "feature": "BHR",
+          "explanation": "Bahrein"
+        },
+        {
+          "id": "geo-CYP-map",
+          "type": "map",
+          "prompt": "Trova: Cipro",
+          "map": "world",
+          "feature": "CYP"
+        },
+        {
+          "id": "geo-CYP-cap",
+          "type": "text",
+          "prompt": "Capitale: Cipro",
+          "answers": [
+            "Nicosia"
+          ]
+        },
+        {
+          "id": "geo-CYP-flag",
+          "type": "map",
+          "prompt": "Trova: 🇨🇾",
+          "map": "world",
+          "feature": "CYP",
+          "explanation": "Cipro"
+        },
+        {
+          "id": "geo-ARE-map",
+          "type": "map",
+          "prompt": "Trova: Emirati Arabi Uniti",
+          "map": "world",
+          "feature": "ARE"
+        },
+        {
+          "id": "geo-ARE-cap",
+          "type": "text",
+          "prompt": "Capitale: Emirati Arabi Uniti",
+          "answers": [
+            "Abu Dhabi"
+          ]
+        },
+        {
+          "id": "geo-ARE-flag",
+          "type": "map",
+          "prompt": "Trova: 🇦🇪",
+          "map": "world",
+          "feature": "ARE",
+          "explanation": "Emirati Arabi Uniti"
+        },
+        {
+          "id": "geo-GEO-map",
+          "type": "map",
+          "prompt": "Trova: Georgia",
+          "map": "world",
+          "feature": "GEO"
+        },
+        {
+          "id": "geo-GEO-cap",
+          "type": "text",
+          "prompt": "Capitale: Georgia",
+          "answers": [
+            "Tbilisi"
+          ]
+        },
+        {
+          "id": "geo-GEO-flag",
+          "type": "map",
+          "prompt": "Trova: 🇬🇪",
+          "map": "world",
+          "feature": "GEO",
+          "explanation": "Georgia"
+        },
+        {
+          "id": "geo-JOR-map",
+          "type": "map",
+          "prompt": "Trova: Giordania",
+          "map": "world",
+          "feature": "JOR"
+        },
+        {
+          "id": "geo-JOR-cap",
+          "type": "text",
+          "prompt": "Capitale: Giordania",
+          "answers": [
+            "Amman"
+          ]
+        },
+        {
+          "id": "geo-JOR-flag",
+          "type": "map",
+          "prompt": "Trova: 🇯🇴",
+          "map": "world",
+          "feature": "JOR",
+          "explanation": "Giordania"
+        },
+        {
+          "id": "geo-IRQ-map",
+          "type": "map",
+          "prompt": "Trova: Iraq",
+          "map": "world",
+          "feature": "IRQ"
+        },
+        {
+          "id": "geo-IRQ-cap",
+          "type": "text",
+          "prompt": "Capitale: Iraq",
+          "answers": [
+            "Baghdad",
+            "Bagdad"
+          ]
+        },
+        {
+          "id": "geo-IRQ-flag",
+          "type": "map",
+          "prompt": "Trova: 🇮🇶",
+          "map": "world",
+          "feature": "IRQ",
+          "explanation": "Iraq"
+        },
+        {
+          "id": "geo-ISR-map",
+          "type": "map",
+          "prompt": "Trova: Israele",
+          "map": "world",
+          "feature": "ISR"
+        },
+        {
+          "id": "geo-ISR-cap",
+          "type": "text",
+          "prompt": "Capitale: Israele",
+          "answers": [
+            "Gerusalemme",
+            "Jerusalem"
+          ]
+        },
+        {
+          "id": "geo-ISR-flag",
+          "type": "map",
+          "prompt": "Trova: 🇮🇱",
+          "map": "world",
+          "feature": "ISR",
+          "explanation": "Israele"
+        },
+        {
+          "id": "geo-KWT-map",
+          "type": "map",
+          "prompt": "Trova: Kuwait",
+          "map": "world",
+          "feature": "KWT"
+        },
+        {
+          "id": "geo-KWT-cap",
+          "type": "text",
+          "prompt": "Capitale: Kuwait",
+          "answers": [
+            "Al Kuwait",
+            "Kuwait City",
+            "Kuwait"
+          ]
+        },
+        {
+          "id": "geo-KWT-flag",
+          "type": "map",
+          "prompt": "Trova: 🇰🇼",
+          "map": "world",
+          "feature": "KWT",
+          "explanation": "Kuwait"
+        },
+        {
+          "id": "geo-LBN-map",
+          "type": "map",
+          "prompt": "Trova: Libano",
+          "map": "world",
+          "feature": "LBN"
+        },
+        {
+          "id": "geo-LBN-cap",
+          "type": "text",
+          "prompt": "Capitale: Libano",
+          "answers": [
+            "Beirut"
+          ]
+        },
+        {
+          "id": "geo-LBN-flag",
+          "type": "map",
+          "prompt": "Trova: 🇱🇧",
+          "map": "world",
+          "feature": "LBN",
+          "explanation": "Libano"
+        },
+        {
+          "id": "geo-OMN-map",
+          "type": "map",
+          "prompt": "Trova: Oman",
+          "map": "world",
+          "feature": "OMN"
+        },
+        {
+          "id": "geo-OMN-cap",
+          "type": "text",
+          "prompt": "Capitale: Oman",
+          "answers": [
+            "Mascate",
+            "Muscat"
+          ]
+        },
+        {
+          "id": "geo-OMN-flag",
+          "type": "map",
+          "prompt": "Trova: 🇴🇲",
+          "map": "world",
+          "feature": "OMN",
+          "explanation": "Oman"
+        },
+        {
+          "id": "geo-PSE-map",
+          "type": "map",
+          "prompt": "Trova: Palestina",
+          "map": "world",
+          "feature": "PSE"
+        },
+        {
+          "id": "geo-PSE-cap",
+          "type": "text",
+          "prompt": "Capitale: Palestina",
+          "answers": [
+            "Gerusalemme Est",
+            "Ramallah",
+            "East Jerusalem"
+          ],
+          "explanation": "Capitali: Gerusalemme Est e Ramallah."
+        },
+        {
+          "id": "geo-PSE-flag",
+          "type": "map",
+          "prompt": "Trova: 🇵🇸",
+          "map": "world",
+          "feature": "PSE",
+          "explanation": "Palestina"
+        },
+        {
+          "id": "geo-QAT-map",
+          "type": "map",
+          "prompt": "Trova: Qatar",
+          "map": "world",
+          "feature": "QAT"
+        },
+        {
+          "id": "geo-QAT-cap",
+          "type": "text",
+          "prompt": "Capitale: Qatar",
+          "answers": [
+            "Doha"
+          ]
+        },
+        {
+          "id": "geo-QAT-flag",
+          "type": "map",
+          "prompt": "Trova: 🇶🇦",
+          "map": "world",
+          "feature": "QAT",
+          "explanation": "Qatar"
+        },
+        {
+          "id": "geo-SYR-map",
+          "type": "map",
+          "prompt": "Trova: Siria",
+          "map": "world",
+          "feature": "SYR"
+        },
+        {
+          "id": "geo-SYR-cap",
+          "type": "text",
+          "prompt": "Capitale: Siria",
+          "answers": [
+            "Damasco",
+            "Damascus"
+          ]
+        },
+        {
+          "id": "geo-SYR-flag",
+          "type": "map",
+          "prompt": "Trova: 🇸🇾",
+          "map": "world",
+          "feature": "SYR",
+          "explanation": "Siria"
+        },
+        {
+          "id": "geo-TUR-map",
+          "type": "map",
+          "prompt": "Trova: Turchia",
+          "map": "world",
+          "feature": "TUR"
+        },
+        {
+          "id": "geo-TUR-cap",
+          "type": "text",
+          "prompt": "Capitale: Turchia",
+          "answers": [
+            "Ankara"
+          ]
+        },
+        {
+          "id": "geo-TUR-flag",
+          "type": "map",
+          "prompt": "Trova: 🇹🇷",
+          "map": "world",
+          "feature": "TUR",
+          "explanation": "Turchia"
+        },
+        {
+          "id": "geo-YEM-map",
+          "type": "map",
+          "prompt": "Trova: Yemen",
+          "map": "world",
+          "feature": "YEM"
+        },
+        {
+          "id": "geo-YEM-cap",
+          "type": "text",
+          "prompt": "Capitale: Yemen",
+          "answers": [
+            "Sana'a",
+            "Aden",
+            "Sanaa"
+          ],
+          "explanation": "Capitali: Sana'a e Aden."
+        },
+        {
+          "id": "geo-YEM-flag",
+          "type": "map",
+          "prompt": "Trova: 🇾🇪",
+          "map": "world",
+          "feature": "YEM",
+          "explanation": "Yemen"
+        }
+      ]
+    },
+    {
+      "id": "asia-centro-sud",
+      "title": "Asia centrale e meridionale",
+      "cards": [
+        {
+          "id": "geo-AFG-map",
+          "type": "map",
+          "prompt": "Trova: Afghanistan",
+          "map": "world",
+          "feature": "AFG"
+        },
+        {
+          "id": "geo-AFG-cap",
+          "type": "text",
+          "prompt": "Capitale: Afghanistan",
+          "answers": [
+            "Kabul"
+          ]
+        },
+        {
+          "id": "geo-AFG-flag",
+          "type": "map",
+          "prompt": "Trova: 🇦🇫",
+          "map": "world",
+          "feature": "AFG",
+          "explanation": "Afghanistan"
+        },
+        {
+          "id": "geo-BGD-map",
+          "type": "map",
+          "prompt": "Trova: Bangladesh",
+          "map": "world",
+          "feature": "BGD"
+        },
+        {
+          "id": "geo-BGD-cap",
+          "type": "text",
+          "prompt": "Capitale: Bangladesh",
+          "answers": [
+            "Dacca",
+            "Dhaka"
+          ]
+        },
+        {
+          "id": "geo-BGD-flag",
+          "type": "map",
+          "prompt": "Trova: 🇧🇩",
+          "map": "world",
+          "feature": "BGD",
+          "explanation": "Bangladesh"
+        },
+        {
+          "id": "geo-BTN-map",
+          "type": "map",
+          "prompt": "Trova: Bhutan",
+          "map": "world",
+          "feature": "BTN"
+        },
+        {
+          "id": "geo-BTN-cap",
+          "type": "text",
+          "prompt": "Capitale: Bhutan",
+          "answers": [
+            "Thimphu"
+          ]
+        },
+        {
+          "id": "geo-BTN-flag",
+          "type": "map",
+          "prompt": "Trova: 🇧🇹",
+          "map": "world",
+          "feature": "BTN",
+          "explanation": "Bhutan"
+        },
+        {
+          "id": "geo-IND-map",
+          "type": "map",
+          "prompt": "Trova: India",
+          "map": "world",
+          "feature": "IND"
+        },
+        {
+          "id": "geo-IND-cap",
+          "type": "text",
+          "prompt": "Capitale: India",
+          "answers": [
+            "Nuova Delhi",
+            "New Delhi"
+          ]
+        },
+        {
+          "id": "geo-IND-flag",
+          "type": "map",
+          "prompt": "Trova: 🇮🇳",
+          "map": "world",
+          "feature": "IND",
+          "explanation": "India"
+        },
+        {
+          "id": "geo-IRN-map",
+          "type": "map",
+          "prompt": "Trova: Iran",
+          "map": "world",
+          "feature": "IRN"
+        },
+        {
+          "id": "geo-IRN-cap",
+          "type": "text",
+          "prompt": "Capitale: Iran",
+          "answers": [
+            "Teheran",
+            "Tehran"
+          ]
+        },
+        {
+          "id": "geo-IRN-flag",
+          "type": "map",
+          "prompt": "Trova: 🇮🇷",
+          "map": "world",
+          "feature": "IRN",
+          "explanation": "Iran"
+        },
+        {
+          "id": "geo-KAZ-map",
+          "type": "map",
+          "prompt": "Trova: Kazakistan",
+          "map": "world",
+          "feature": "KAZ"
+        },
+        {
+          "id": "geo-KAZ-cap",
+          "type": "text",
+          "prompt": "Capitale: Kazakistan",
+          "answers": [
+            "Astana"
+          ]
+        },
+        {
+          "id": "geo-KAZ-flag",
+          "type": "map",
+          "prompt": "Trova: 🇰🇿",
+          "map": "world",
+          "feature": "KAZ",
+          "explanation": "Kazakistan"
+        },
+        {
+          "id": "geo-KGZ-map",
+          "type": "map",
+          "prompt": "Trova: Kirghizistan",
+          "map": "world",
+          "feature": "KGZ"
+        },
+        {
+          "id": "geo-KGZ-cap",
+          "type": "text",
+          "prompt": "Capitale: Kirghizistan",
+          "answers": [
+            "Biškek",
+            "Bishkek"
+          ]
+        },
+        {
+          "id": "geo-KGZ-flag",
+          "type": "map",
+          "prompt": "Trova: 🇰🇬",
+          "map": "world",
+          "feature": "KGZ",
+          "explanation": "Kirghizistan"
+        },
+        {
+          "id": "geo-MDV-map",
+          "type": "map",
+          "prompt": "Trova: Maldive",
+          "map": "world",
+          "feature": "MDV"
+        },
+        {
+          "id": "geo-MDV-cap",
+          "type": "text",
+          "prompt": "Capitale: Maldive",
+          "answers": [
+            "Male"
+          ]
+        },
+        {
+          "id": "geo-MDV-flag",
+          "type": "map",
+          "prompt": "Trova: 🇲🇻",
+          "map": "world",
+          "feature": "MDV",
+          "explanation": "Maldive"
+        },
+        {
+          "id": "geo-NPL-map",
+          "type": "map",
+          "prompt": "Trova: Nepal",
+          "map": "world",
+          "feature": "NPL"
+        },
+        {
+          "id": "geo-NPL-cap",
+          "type": "text",
+          "prompt": "Capitale: Nepal",
+          "answers": [
+            "Katmandu",
+            "Kathmandu"
+          ]
+        },
+        {
+          "id": "geo-NPL-flag",
+          "type": "map",
+          "prompt": "Trova: 🇳🇵",
+          "map": "world",
+          "feature": "NPL",
+          "explanation": "Nepal"
+        },
+        {
+          "id": "geo-PAK-map",
+          "type": "map",
+          "prompt": "Trova: Pakistan",
+          "map": "world",
+          "feature": "PAK"
+        },
+        {
+          "id": "geo-PAK-cap",
+          "type": "text",
+          "prompt": "Capitale: Pakistan",
+          "answers": [
+            "Islamabad"
+          ]
+        },
+        {
+          "id": "geo-PAK-flag",
+          "type": "map",
+          "prompt": "Trova: 🇵🇰",
+          "map": "world",
+          "feature": "PAK",
+          "explanation": "Pakistan"
+        },
+        {
+          "id": "geo-LKA-map",
+          "type": "map",
+          "prompt": "Trova: Sri Lanka",
+          "map": "world",
+          "feature": "LKA"
+        },
+        {
+          "id": "geo-LKA-cap",
+          "type": "text",
+          "prompt": "Capitale: Sri Lanka",
+          "answers": [
+            "Sri Jayawardenepura Kotte",
+            "Colombo",
+            "Kotte"
+          ],
+          "explanation": "Capitali: Sri Jayawardenepura Kotte e Colombo."
+        },
+        {
+          "id": "geo-LKA-flag",
+          "type": "map",
+          "prompt": "Trova: 🇱🇰",
+          "map": "world",
+          "feature": "LKA",
+          "explanation": "Sri Lanka"
+        },
+        {
+          "id": "geo-TJK-map",
+          "type": "map",
+          "prompt": "Trova: Tagikistan",
+          "map": "world",
+          "feature": "TJK"
+        },
+        {
+          "id": "geo-TJK-cap",
+          "type": "text",
+          "prompt": "Capitale: Tagikistan",
+          "answers": [
+            "Dušanbe",
+            "Dushanbe"
+          ]
+        },
+        {
+          "id": "geo-TJK-flag",
+          "type": "map",
+          "prompt": "Trova: 🇹🇯",
+          "map": "world",
+          "feature": "TJK",
+          "explanation": "Tagikistan"
+        },
+        {
+          "id": "geo-TKM-map",
+          "type": "map",
+          "prompt": "Trova: Turkmenistan",
+          "map": "world",
+          "feature": "TKM"
+        },
+        {
+          "id": "geo-TKM-cap",
+          "type": "text",
+          "prompt": "Capitale: Turkmenistan",
+          "answers": [
+            "Aşgabat",
+            "Ashgabat"
+          ]
+        },
+        {
+          "id": "geo-TKM-flag",
+          "type": "map",
+          "prompt": "Trova: 🇹🇲",
+          "map": "world",
+          "feature": "TKM",
+          "explanation": "Turkmenistan"
+        },
+        {
+          "id": "geo-UZB-map",
+          "type": "map",
+          "prompt": "Trova: Uzbekistan",
+          "map": "world",
+          "feature": "UZB"
+        },
+        {
+          "id": "geo-UZB-cap",
+          "type": "text",
+          "prompt": "Capitale: Uzbekistan",
+          "answers": [
+            "Tashkent"
+          ]
+        },
+        {
+          "id": "geo-UZB-flag",
+          "type": "map",
+          "prompt": "Trova: 🇺🇿",
+          "map": "world",
+          "feature": "UZB",
+          "explanation": "Uzbekistan"
+        }
+      ]
+    },
+    {
+      "id": "asia-est",
+      "title": "Asia orientale e sud-orientale",
+      "cards": [
+        {
+          "id": "geo-BRN-map",
+          "type": "map",
+          "prompt": "Trova: Brunei",
+          "map": "world",
+          "feature": "BRN"
+        },
+        {
+          "id": "geo-BRN-cap",
+          "type": "text",
+          "prompt": "Capitale: Brunei",
+          "answers": [
+            "Bandar Seri Begawan"
+          ]
+        },
+        {
+          "id": "geo-BRN-flag",
+          "type": "map",
+          "prompt": "Trova: 🇧🇳",
+          "map": "world",
+          "feature": "BRN",
+          "explanation": "Brunei"
+        },
+        {
+          "id": "geo-KHM-map",
+          "type": "map",
+          "prompt": "Trova: Cambogia",
+          "map": "world",
+          "feature": "KHM"
+        },
+        {
+          "id": "geo-KHM-cap",
+          "type": "text",
+          "prompt": "Capitale: Cambogia",
+          "answers": [
+            "Phnom Penh"
+          ]
+        },
+        {
+          "id": "geo-KHM-flag",
+          "type": "map",
+          "prompt": "Trova: 🇰🇭",
+          "map": "world",
+          "feature": "KHM",
+          "explanation": "Cambogia"
+        },
+        {
+          "id": "geo-CHN-map",
+          "type": "map",
+          "prompt": "Trova: Cina",
+          "map": "world",
+          "feature": "CHN"
+        },
+        {
+          "id": "geo-CHN-cap",
+          "type": "text",
+          "prompt": "Capitale: Cina",
+          "answers": [
+            "Pechino",
+            "Beijing"
+          ]
+        },
+        {
+          "id": "geo-CHN-flag",
+          "type": "map",
+          "prompt": "Trova: 🇨🇳",
+          "map": "world",
+          "feature": "CHN",
+          "explanation": "Cina"
+        },
+        {
+          "id": "geo-PRK-map",
+          "type": "map",
+          "prompt": "Trova: Corea del Nord",
+          "map": "world",
+          "feature": "PRK"
+        },
+        {
+          "id": "geo-PRK-cap",
+          "type": "text",
+          "prompt": "Capitale: Corea del Nord",
+          "answers": [
+            "Pyongyang"
+          ]
+        },
+        {
+          "id": "geo-PRK-flag",
+          "type": "map",
+          "prompt": "Trova: 🇰🇵",
+          "map": "world",
+          "feature": "PRK",
+          "explanation": "Corea del Nord"
+        },
+        {
+          "id": "geo-KOR-map",
+          "type": "map",
+          "prompt": "Trova: Corea del Sud",
+          "map": "world",
+          "feature": "KOR"
+        },
+        {
+          "id": "geo-KOR-cap",
+          "type": "text",
+          "prompt": "Capitale: Corea del Sud",
+          "answers": [
+            "Seul",
+            "Seoul"
+          ]
+        },
+        {
+          "id": "geo-KOR-flag",
+          "type": "map",
+          "prompt": "Trova: 🇰🇷",
+          "map": "world",
+          "feature": "KOR",
+          "explanation": "Corea del Sud"
+        },
+        {
+          "id": "geo-PHL-map",
+          "type": "map",
+          "prompt": "Trova: Filippine",
+          "map": "world",
+          "feature": "PHL"
+        },
+        {
+          "id": "geo-PHL-cap",
+          "type": "text",
+          "prompt": "Capitale: Filippine",
+          "answers": [
+            "Manila"
+          ]
+        },
+        {
+          "id": "geo-PHL-flag",
+          "type": "map",
+          "prompt": "Trova: 🇵🇭",
+          "map": "world",
+          "feature": "PHL",
+          "explanation": "Filippine"
+        },
+        {
+          "id": "geo-JPN-map",
+          "type": "map",
+          "prompt": "Trova: Giappone",
+          "map": "world",
+          "feature": "JPN"
+        },
+        {
+          "id": "geo-JPN-cap",
+          "type": "text",
+          "prompt": "Capitale: Giappone",
+          "answers": [
+            "Tokyo"
+          ]
+        },
+        {
+          "id": "geo-JPN-flag",
+          "type": "map",
+          "prompt": "Trova: 🇯🇵",
+          "map": "world",
+          "feature": "JPN",
+          "explanation": "Giappone"
+        },
+        {
+          "id": "geo-IDN-map",
+          "type": "map",
+          "prompt": "Trova: Indonesia",
+          "map": "world",
+          "feature": "IDN"
+        },
+        {
+          "id": "geo-IDN-cap",
+          "type": "text",
+          "prompt": "Capitale: Indonesia",
+          "answers": [
+            "Giacarta",
+            "Jakarta"
+          ]
+        },
+        {
+          "id": "geo-IDN-flag",
+          "type": "map",
+          "prompt": "Trova: 🇮🇩",
+          "map": "world",
+          "feature": "IDN",
+          "explanation": "Indonesia"
+        },
+        {
+          "id": "geo-LAO-map",
+          "type": "map",
+          "prompt": "Trova: Laos",
+          "map": "world",
+          "feature": "LAO"
+        },
+        {
+          "id": "geo-LAO-cap",
+          "type": "text",
+          "prompt": "Capitale: Laos",
+          "answers": [
+            "Vientiane"
+          ]
+        },
+        {
+          "id": "geo-LAO-flag",
+          "type": "map",
+          "prompt": "Trova: 🇱🇦",
+          "map": "world",
+          "feature": "LAO",
+          "explanation": "Laos"
+        },
+        {
+          "id": "geo-MYS-map",
+          "type": "map",
+          "prompt": "Trova: Malaysia",
+          "map": "world",
+          "feature": "MYS"
+        },
+        {
+          "id": "geo-MYS-cap",
+          "type": "text",
+          "prompt": "Capitale: Malaysia",
+          "answers": [
+            "Kuala Lumpur",
+            "Putrajaya"
+          ],
+          "explanation": "Capitali: Kuala Lumpur e Putrajaya."
+        },
+        {
+          "id": "geo-MYS-flag",
+          "type": "map",
+          "prompt": "Trova: 🇲🇾",
+          "map": "world",
+          "feature": "MYS",
+          "explanation": "Malaysia"
+        },
+        {
+          "id": "geo-MNG-map",
+          "type": "map",
+          "prompt": "Trova: Mongolia",
+          "map": "world",
+          "feature": "MNG"
+        },
+        {
+          "id": "geo-MNG-cap",
+          "type": "text",
+          "prompt": "Capitale: Mongolia",
+          "answers": [
+            "Ulan Bator",
+            "Ulaanbaatar"
+          ]
+        },
+        {
+          "id": "geo-MNG-flag",
+          "type": "map",
+          "prompt": "Trova: 🇲🇳",
+          "map": "world",
+          "feature": "MNG",
+          "explanation": "Mongolia"
+        },
+        {
+          "id": "geo-MMR-map",
+          "type": "map",
+          "prompt": "Trova: Myanmar (Birmania)",
+          "map": "world",
+          "feature": "MMR"
+        },
+        {
+          "id": "geo-MMR-cap",
+          "type": "text",
+          "prompt": "Capitale: Myanmar (Birmania)",
+          "answers": [
+            "Naypyidaw",
+            "Nay Pyi Taw"
+          ]
+        },
+        {
+          "id": "geo-MMR-flag",
+          "type": "map",
+          "prompt": "Trova: 🇲🇲",
+          "map": "world",
+          "feature": "MMR",
+          "explanation": "Myanmar (Birmania)"
+        },
+        {
+          "id": "geo-SGP-map",
+          "type": "map",
+          "prompt": "Trova: Singapore",
+          "map": "world",
+          "feature": "SGP"
+        },
+        {
+          "id": "geo-SGP-cap",
+          "type": "text",
+          "prompt": "Capitale: Singapore",
+          "answers": [
+            "Singapore"
+          ]
+        },
+        {
+          "id": "geo-SGP-flag",
+          "type": "map",
+          "prompt": "Trova: 🇸🇬",
+          "map": "world",
+          "feature": "SGP",
+          "explanation": "Singapore"
+        },
+        {
+          "id": "geo-THA-map",
+          "type": "map",
+          "prompt": "Trova: Thailandia",
+          "map": "world",
+          "feature": "THA"
+        },
+        {
+          "id": "geo-THA-cap",
+          "type": "text",
+          "prompt": "Capitale: Thailandia",
+          "answers": [
+            "Bangkok"
+          ]
+        },
+        {
+          "id": "geo-THA-flag",
+          "type": "map",
+          "prompt": "Trova: 🇹🇭",
+          "map": "world",
+          "feature": "THA",
+          "explanation": "Thailandia"
+        },
+        {
+          "id": "geo-TLS-map",
+          "type": "map",
+          "prompt": "Trova: Timor Est",
+          "map": "world",
+          "feature": "TLS"
+        },
+        {
+          "id": "geo-TLS-cap",
+          "type": "text",
+          "prompt": "Capitale: Timor Est",
+          "answers": [
+            "Dili"
+          ]
+        },
+        {
+          "id": "geo-TLS-flag",
+          "type": "map",
+          "prompt": "Trova: 🇹🇱",
+          "map": "world",
+          "feature": "TLS",
+          "explanation": "Timor Est"
+        },
+        {
+          "id": "geo-VNM-map",
+          "type": "map",
+          "prompt": "Trova: Vietnam",
+          "map": "world",
+          "feature": "VNM"
+        },
+        {
+          "id": "geo-VNM-cap",
+          "type": "text",
+          "prompt": "Capitale: Vietnam",
+          "answers": [
+            "Hanoi"
+          ]
+        },
+        {
+          "id": "geo-VNM-flag",
+          "type": "map",
+          "prompt": "Trova: 🇻🇳",
+          "map": "world",
+          "feature": "VNM",
+          "explanation": "Vietnam"
+        }
+      ]
+    },
+    {
+      "id": "africa-nord-centro",
+      "title": "Africa settentrionale e centrale",
+      "cards": [
+        {
+          "id": "geo-DZA-map",
+          "type": "map",
+          "prompt": "Trova: Algeria",
+          "map": "world",
+          "feature": "DZA"
+        },
+        {
+          "id": "geo-DZA-cap",
+          "type": "text",
+          "prompt": "Capitale: Algeria",
+          "answers": [
+            "Algeri",
+            "Algiers"
+          ]
+        },
+        {
+          "id": "geo-DZA-flag",
+          "type": "map",
+          "prompt": "Trova: 🇩🇿",
+          "map": "world",
+          "feature": "DZA",
+          "explanation": "Algeria"
+        },
+        {
+          "id": "geo-AGO-map",
+          "type": "map",
+          "prompt": "Trova: Angola",
+          "map": "world",
+          "feature": "AGO"
+        },
+        {
+          "id": "geo-AGO-cap",
+          "type": "text",
+          "prompt": "Capitale: Angola",
+          "answers": [
+            "Luanda"
+          ]
+        },
+        {
+          "id": "geo-AGO-flag",
+          "type": "map",
+          "prompt": "Trova: 🇦🇴",
+          "map": "world",
+          "feature": "AGO",
+          "explanation": "Angola"
+        },
+        {
+          "id": "geo-CMR-map",
+          "type": "map",
+          "prompt": "Trova: Camerun",
+          "map": "world",
+          "feature": "CMR"
+        },
+        {
+          "id": "geo-CMR-cap",
+          "type": "text",
+          "prompt": "Capitale: Camerun",
+          "answers": [
+            "Yaoundé"
+          ]
+        },
+        {
+          "id": "geo-CMR-flag",
+          "type": "map",
+          "prompt": "Trova: 🇨🇲",
+          "map": "world",
+          "feature": "CMR",
+          "explanation": "Camerun"
+        },
+        {
+          "id": "geo-TCD-map",
+          "type": "map",
+          "prompt": "Trova: Ciad",
+          "map": "world",
+          "feature": "TCD"
+        },
+        {
+          "id": "geo-TCD-cap",
+          "type": "text",
+          "prompt": "Capitale: Ciad",
+          "answers": [
+            "N'Djamena",
+            "Ndjamena"
+          ]
+        },
+        {
+          "id": "geo-TCD-flag",
+          "type": "map",
+          "prompt": "Trova: 🇹🇩",
+          "map": "world",
+          "feature": "TCD",
+          "explanation": "Ciad"
+        },
+        {
+          "id": "geo-COG-map",
+          "type": "map",
+          "prompt": "Trova: Congo-Brazzaville",
+          "map": "world",
+          "feature": "COG"
+        },
+        {
+          "id": "geo-COG-cap",
+          "type": "text",
+          "prompt": "Capitale: Congo-Brazzaville",
+          "answers": [
+            "Brazzaville"
+          ]
+        },
+        {
+          "id": "geo-COG-flag",
+          "type": "map",
+          "prompt": "Trova: 🇨🇬",
+          "map": "world",
+          "feature": "COG",
+          "explanation": "Congo-Brazzaville"
+        },
+        {
+          "id": "geo-COD-map",
+          "type": "map",
+          "prompt": "Trova: Congo-Kinshasa",
+          "map": "world",
+          "feature": "COD"
+        },
+        {
+          "id": "geo-COD-cap",
+          "type": "text",
+          "prompt": "Capitale: Congo-Kinshasa",
+          "answers": [
+            "Kinshasa"
+          ]
+        },
+        {
+          "id": "geo-COD-flag",
+          "type": "map",
+          "prompt": "Trova: 🇨🇩",
+          "map": "world",
+          "feature": "COD",
+          "explanation": "Congo-Kinshasa"
+        },
+        {
+          "id": "geo-EGY-map",
+          "type": "map",
+          "prompt": "Trova: Egitto",
+          "map": "world",
+          "feature": "EGY"
+        },
+        {
+          "id": "geo-EGY-cap",
+          "type": "text",
+          "prompt": "Capitale: Egitto",
+          "answers": [
+            "Il Cairo",
+            "Cairo"
+          ]
+        },
+        {
+          "id": "geo-EGY-flag",
+          "type": "map",
+          "prompt": "Trova: 🇪🇬",
+          "map": "world",
+          "feature": "EGY",
+          "explanation": "Egitto"
+        },
+        {
+          "id": "geo-GAB-map",
+          "type": "map",
+          "prompt": "Trova: Gabon",
+          "map": "world",
+          "feature": "GAB"
+        },
+        {
+          "id": "geo-GAB-cap",
+          "type": "text",
+          "prompt": "Capitale: Gabon",
+          "answers": [
+            "Libreville"
+          ]
+        },
+        {
+          "id": "geo-GAB-flag",
+          "type": "map",
+          "prompt": "Trova: 🇬🇦",
+          "map": "world",
+          "feature": "GAB",
+          "explanation": "Gabon"
+        },
+        {
+          "id": "geo-GNQ-map",
+          "type": "map",
+          "prompt": "Trova: Guinea Equatoriale",
+          "map": "world",
+          "feature": "GNQ"
+        },
+        {
+          "id": "geo-GNQ-cap",
+          "type": "text",
+          "prompt": "Capitale: Guinea Equatoriale",
+          "answers": [
+            "Ciudad de la Paz",
+            "Malabo"
+          ],
+          "explanation": "Capitali: Ciudad de la Paz e Malabo."
+        },
+        {
+          "id": "geo-GNQ-flag",
+          "type": "map",
+          "prompt": "Trova: 🇬🇶",
+          "map": "world",
+          "feature": "GNQ",
+          "explanation": "Guinea Equatoriale"
+        },
+        {
+          "id": "geo-LBY-map",
+          "type": "map",
+          "prompt": "Trova: Libia",
+          "map": "world",
+          "feature": "LBY"
+        },
+        {
+          "id": "geo-LBY-cap",
+          "type": "text",
+          "prompt": "Capitale: Libia",
+          "answers": [
+            "Tripoli"
+          ]
+        },
+        {
+          "id": "geo-LBY-flag",
+          "type": "map",
+          "prompt": "Trova: 🇱🇾",
+          "map": "world",
+          "feature": "LBY",
+          "explanation": "Libia"
+        },
+        {
+          "id": "geo-MAR-map",
+          "type": "map",
+          "prompt": "Trova: Marocco",
+          "map": "world",
+          "feature": "MAR"
+        },
+        {
+          "id": "geo-MAR-cap",
+          "type": "text",
+          "prompt": "Capitale: Marocco",
+          "answers": [
+            "Rabat"
+          ]
+        },
+        {
+          "id": "geo-MAR-flag",
+          "type": "map",
+          "prompt": "Trova: 🇲🇦",
+          "map": "world",
+          "feature": "MAR",
+          "explanation": "Marocco"
+        },
+        {
+          "id": "geo-CAF-map",
+          "type": "map",
+          "prompt": "Trova: Repubblica Centrafricana",
+          "map": "world",
+          "feature": "CAF"
+        },
+        {
+          "id": "geo-CAF-cap",
+          "type": "text",
+          "prompt": "Capitale: Repubblica Centrafricana",
+          "answers": [
+            "Bangui"
+          ]
+        },
+        {
+          "id": "geo-CAF-flag",
+          "type": "map",
+          "prompt": "Trova: 🇨🇫",
+          "map": "world",
+          "feature": "CAF",
+          "explanation": "Repubblica Centrafricana"
+        },
+        {
+          "id": "geo-STP-map",
+          "type": "map",
+          "prompt": "Trova: São Tomé e Príncipe",
+          "map": "world",
+          "feature": "STP"
+        },
+        {
+          "id": "geo-STP-cap",
+          "type": "text",
+          "prompt": "Capitale: São Tomé e Príncipe",
+          "answers": [
+            "São Tomé"
+          ]
+        },
+        {
+          "id": "geo-STP-flag",
+          "type": "map",
+          "prompt": "Trova: 🇸🇹",
+          "map": "world",
+          "feature": "STP",
+          "explanation": "São Tomé e Príncipe"
+        },
+        {
+          "id": "geo-SDN-map",
+          "type": "map",
+          "prompt": "Trova: Sudan",
+          "map": "world",
+          "feature": "SDN"
+        },
+        {
+          "id": "geo-SDN-cap",
+          "type": "text",
+          "prompt": "Capitale: Sudan",
+          "answers": [
+            "Khartum",
+            "Khartoum"
+          ]
+        },
+        {
+          "id": "geo-SDN-flag",
+          "type": "map",
+          "prompt": "Trova: 🇸🇩",
+          "map": "world",
+          "feature": "SDN",
+          "explanation": "Sudan"
+        },
+        {
+          "id": "geo-TUN-map",
+          "type": "map",
+          "prompt": "Trova: Tunisia",
+          "map": "world",
+          "feature": "TUN"
+        },
+        {
+          "id": "geo-TUN-cap",
+          "type": "text",
+          "prompt": "Capitale: Tunisia",
+          "answers": [
+            "Tunisi",
+            "Tunis"
+          ]
+        },
+        {
+          "id": "geo-TUN-flag",
+          "type": "map",
+          "prompt": "Trova: 🇹🇳",
+          "map": "world",
+          "feature": "TUN",
+          "explanation": "Tunisia"
+        }
+      ]
+    },
+    {
+      "id": "africa-ovest",
+      "title": "Africa occidentale",
+      "cards": [
+        {
+          "id": "geo-BEN-map",
+          "type": "map",
+          "prompt": "Trova: Benin",
+          "map": "world",
+          "feature": "BEN"
+        },
+        {
+          "id": "geo-BEN-cap",
+          "type": "text",
+          "prompt": "Capitale: Benin",
+          "answers": [
+            "Porto-Novo",
+            "Cotonou",
+            "Porto Novo"
+          ],
+          "explanation": "Capitali: Porto-Novo e Cotonou."
+        },
+        {
+          "id": "geo-BEN-flag",
+          "type": "map",
+          "prompt": "Trova: 🇧🇯",
+          "map": "world",
+          "feature": "BEN",
+          "explanation": "Benin"
+        },
+        {
+          "id": "geo-BFA-map",
+          "type": "map",
+          "prompt": "Trova: Burkina Faso",
+          "map": "world",
+          "feature": "BFA"
+        },
+        {
+          "id": "geo-BFA-cap",
+          "type": "text",
+          "prompt": "Capitale: Burkina Faso",
+          "answers": [
+            "Ouagadougou"
+          ]
+        },
+        {
+          "id": "geo-BFA-flag",
+          "type": "map",
+          "prompt": "Trova: 🇧🇫",
+          "map": "world",
+          "feature": "BFA",
+          "explanation": "Burkina Faso"
+        },
+        {
+          "id": "geo-CPV-map",
+          "type": "map",
+          "prompt": "Trova: Capo Verde",
+          "map": "world",
+          "feature": "CPV"
+        },
+        {
+          "id": "geo-CPV-cap",
+          "type": "text",
+          "prompt": "Capitale: Capo Verde",
+          "answers": [
+            "Praia"
+          ]
+        },
+        {
+          "id": "geo-CPV-flag",
+          "type": "map",
+          "prompt": "Trova: 🇨🇻",
+          "map": "world",
+          "feature": "CPV",
+          "explanation": "Capo Verde"
+        },
+        {
+          "id": "geo-CIV-map",
+          "type": "map",
+          "prompt": "Trova: Côte d'Ivoire",
+          "map": "world",
+          "feature": "CIV"
+        },
+        {
+          "id": "geo-CIV-cap",
+          "type": "text",
+          "prompt": "Capitale: Côte d'Ivoire",
+          "answers": [
+            "Yamoussoukro"
+          ]
+        },
+        {
+          "id": "geo-CIV-flag",
+          "type": "map",
+          "prompt": "Trova: 🇨🇮",
+          "map": "world",
+          "feature": "CIV",
+          "explanation": "Côte d'Ivoire"
+        },
+        {
+          "id": "geo-GMB-map",
+          "type": "map",
+          "prompt": "Trova: Gambia",
+          "map": "world",
+          "feature": "GMB"
+        },
+        {
+          "id": "geo-GMB-cap",
+          "type": "text",
+          "prompt": "Capitale: Gambia",
+          "answers": [
+            "Banjul"
+          ]
+        },
+        {
+          "id": "geo-GMB-flag",
+          "type": "map",
+          "prompt": "Trova: 🇬🇲",
+          "map": "world",
+          "feature": "GMB",
+          "explanation": "Gambia"
+        },
+        {
+          "id": "geo-GHA-map",
+          "type": "map",
+          "prompt": "Trova: Ghana",
+          "map": "world",
+          "feature": "GHA"
+        },
+        {
+          "id": "geo-GHA-cap",
+          "type": "text",
+          "prompt": "Capitale: Ghana",
+          "answers": [
+            "Accra"
+          ]
+        },
+        {
+          "id": "geo-GHA-flag",
+          "type": "map",
+          "prompt": "Trova: 🇬🇭",
+          "map": "world",
+          "feature": "GHA",
+          "explanation": "Ghana"
+        },
+        {
+          "id": "geo-GIN-map",
+          "type": "map",
+          "prompt": "Trova: Guinea",
+          "map": "world",
+          "feature": "GIN"
+        },
+        {
+          "id": "geo-GIN-cap",
+          "type": "text",
+          "prompt": "Capitale: Guinea",
+          "answers": [
+            "Conakry"
+          ]
+        },
+        {
+          "id": "geo-GIN-flag",
+          "type": "map",
+          "prompt": "Trova: 🇬🇳",
+          "map": "world",
+          "feature": "GIN",
+          "explanation": "Guinea"
+        },
+        {
+          "id": "geo-GNB-map",
+          "type": "map",
+          "prompt": "Trova: Guinea-Bissau",
+          "map": "world",
+          "feature": "GNB"
+        },
+        {
+          "id": "geo-GNB-cap",
+          "type": "text",
+          "prompt": "Capitale: Guinea-Bissau",
+          "answers": [
+            "Bissau"
+          ]
+        },
+        {
+          "id": "geo-GNB-flag",
+          "type": "map",
+          "prompt": "Trova: 🇬🇼",
+          "map": "world",
+          "feature": "GNB",
+          "explanation": "Guinea-Bissau"
+        },
+        {
+          "id": "geo-LBR-map",
+          "type": "map",
+          "prompt": "Trova: Liberia",
+          "map": "world",
+          "feature": "LBR"
+        },
+        {
+          "id": "geo-LBR-cap",
+          "type": "text",
+          "prompt": "Capitale: Liberia",
+          "answers": [
+            "Monrovia"
+          ]
+        },
+        {
+          "id": "geo-LBR-flag",
+          "type": "map",
+          "prompt": "Trova: 🇱🇷",
+          "map": "world",
+          "feature": "LBR",
+          "explanation": "Liberia"
+        },
+        {
+          "id": "geo-MLI-map",
+          "type": "map",
+          "prompt": "Trova: Mali",
+          "map": "world",
+          "feature": "MLI"
+        },
+        {
+          "id": "geo-MLI-cap",
+          "type": "text",
+          "prompt": "Capitale: Mali",
+          "answers": [
+            "Bamako"
+          ]
+        },
+        {
+          "id": "geo-MLI-flag",
+          "type": "map",
+          "prompt": "Trova: 🇲🇱",
+          "map": "world",
+          "feature": "MLI",
+          "explanation": "Mali"
+        },
+        {
+          "id": "geo-MRT-map",
+          "type": "map",
+          "prompt": "Trova: Mauritania",
+          "map": "world",
+          "feature": "MRT"
+        },
+        {
+          "id": "geo-MRT-cap",
+          "type": "text",
+          "prompt": "Capitale: Mauritania",
+          "answers": [
+            "Nouakchott"
+          ]
+        },
+        {
+          "id": "geo-MRT-flag",
+          "type": "map",
+          "prompt": "Trova: 🇲🇷",
+          "map": "world",
+          "feature": "MRT",
+          "explanation": "Mauritania"
+        },
+        {
+          "id": "geo-NER-map",
+          "type": "map",
+          "prompt": "Trova: Niger",
+          "map": "world",
+          "feature": "NER"
+        },
+        {
+          "id": "geo-NER-cap",
+          "type": "text",
+          "prompt": "Capitale: Niger",
+          "answers": [
+            "Niamey"
+          ]
+        },
+        {
+          "id": "geo-NER-flag",
+          "type": "map",
+          "prompt": "Trova: 🇳🇪",
+          "map": "world",
+          "feature": "NER",
+          "explanation": "Niger"
+        },
+        {
+          "id": "geo-NGA-map",
+          "type": "map",
+          "prompt": "Trova: Nigeria",
+          "map": "world",
+          "feature": "NGA"
+        },
+        {
+          "id": "geo-NGA-cap",
+          "type": "text",
+          "prompt": "Capitale: Nigeria",
+          "answers": [
+            "Abuja"
+          ]
+        },
+        {
+          "id": "geo-NGA-flag",
+          "type": "map",
+          "prompt": "Trova: 🇳🇬",
+          "map": "world",
+          "feature": "NGA",
+          "explanation": "Nigeria"
+        },
+        {
+          "id": "geo-SEN-map",
+          "type": "map",
+          "prompt": "Trova: Senegal",
+          "map": "world",
+          "feature": "SEN"
+        },
+        {
+          "id": "geo-SEN-cap",
+          "type": "text",
+          "prompt": "Capitale: Senegal",
+          "answers": [
+            "Dakar"
+          ]
+        },
+        {
+          "id": "geo-SEN-flag",
+          "type": "map",
+          "prompt": "Trova: 🇸🇳",
+          "map": "world",
+          "feature": "SEN",
+          "explanation": "Senegal"
+        },
+        {
+          "id": "geo-SLE-map",
+          "type": "map",
+          "prompt": "Trova: Sierra Leone",
+          "map": "world",
+          "feature": "SLE"
+        },
+        {
+          "id": "geo-SLE-cap",
+          "type": "text",
+          "prompt": "Capitale: Sierra Leone",
+          "answers": [
+            "Freetown"
+          ]
+        },
+        {
+          "id": "geo-SLE-flag",
+          "type": "map",
+          "prompt": "Trova: 🇸🇱",
+          "map": "world",
+          "feature": "SLE",
+          "explanation": "Sierra Leone"
+        },
+        {
+          "id": "geo-TGO-map",
+          "type": "map",
+          "prompt": "Trova: Togo",
+          "map": "world",
+          "feature": "TGO"
+        },
+        {
+          "id": "geo-TGO-cap",
+          "type": "text",
+          "prompt": "Capitale: Togo",
+          "answers": [
+            "Lomé"
+          ]
+        },
+        {
+          "id": "geo-TGO-flag",
+          "type": "map",
+          "prompt": "Trova: 🇹🇬",
+          "map": "world",
+          "feature": "TGO",
+          "explanation": "Togo"
+        }
+      ]
+    },
+    {
+      "id": "africa-est-sud",
+      "title": "Africa orientale e australe",
+      "cards": [
+        {
+          "id": "geo-BWA-map",
+          "type": "map",
+          "prompt": "Trova: Botswana",
+          "map": "world",
+          "feature": "BWA"
+        },
+        {
+          "id": "geo-BWA-cap",
+          "type": "text",
+          "prompt": "Capitale: Botswana",
+          "answers": [
+            "Gaborone"
+          ]
+        },
+        {
+          "id": "geo-BWA-flag",
+          "type": "map",
+          "prompt": "Trova: 🇧🇼",
+          "map": "world",
+          "feature": "BWA",
+          "explanation": "Botswana"
+        },
+        {
+          "id": "geo-BDI-map",
+          "type": "map",
+          "prompt": "Trova: Burundi",
+          "map": "world",
+          "feature": "BDI"
+        },
+        {
+          "id": "geo-BDI-cap",
+          "type": "text",
+          "prompt": "Capitale: Burundi",
+          "answers": [
+            "Gitega"
+          ]
+        },
+        {
+          "id": "geo-BDI-flag",
+          "type": "map",
+          "prompt": "Trova: 🇧🇮",
+          "map": "world",
+          "feature": "BDI",
+          "explanation": "Burundi"
+        },
+        {
+          "id": "geo-COM-map",
+          "type": "map",
+          "prompt": "Trova: Comore",
+          "map": "world",
+          "feature": "COM"
+        },
+        {
+          "id": "geo-COM-cap",
+          "type": "text",
+          "prompt": "Capitale: Comore",
+          "answers": [
+            "Moroni"
+          ]
+        },
+        {
+          "id": "geo-COM-flag",
+          "type": "map",
+          "prompt": "Trova: 🇰🇲",
+          "map": "world",
+          "feature": "COM",
+          "explanation": "Comore"
+        },
+        {
+          "id": "geo-ERI-map",
+          "type": "map",
+          "prompt": "Trova: Eritrea",
+          "map": "world",
+          "feature": "ERI"
+        },
+        {
+          "id": "geo-ERI-cap",
+          "type": "text",
+          "prompt": "Capitale: Eritrea",
+          "answers": [
+            "Asmara"
+          ]
+        },
+        {
+          "id": "geo-ERI-flag",
+          "type": "map",
+          "prompt": "Trova: 🇪🇷",
+          "map": "world",
+          "feature": "ERI",
+          "explanation": "Eritrea"
+        },
+        {
+          "id": "geo-SWZ-map",
+          "type": "map",
+          "prompt": "Trova: Eswatini",
+          "map": "world",
+          "feature": "SWZ"
+        },
+        {
+          "id": "geo-SWZ-cap",
+          "type": "text",
+          "prompt": "Capitale: Eswatini",
+          "answers": [
+            "Mbabane",
+            "Lobamba"
+          ],
+          "explanation": "Capitali: Mbabane e Lobamba."
+        },
+        {
+          "id": "geo-SWZ-flag",
+          "type": "map",
+          "prompt": "Trova: 🇸🇿",
+          "map": "world",
+          "feature": "SWZ",
+          "explanation": "Eswatini"
+        },
+        {
+          "id": "geo-ETH-map",
+          "type": "map",
+          "prompt": "Trova: Etiopia",
+          "map": "world",
+          "feature": "ETH"
+        },
+        {
+          "id": "geo-ETH-cap",
+          "type": "text",
+          "prompt": "Capitale: Etiopia",
+          "answers": [
+            "Addis Abeba",
+            "Addis Ababa"
+          ]
+        },
+        {
+          "id": "geo-ETH-flag",
+          "type": "map",
+          "prompt": "Trova: 🇪🇹",
+          "map": "world",
+          "feature": "ETH",
+          "explanation": "Etiopia"
+        },
+        {
+          "id": "geo-DJI-map",
+          "type": "map",
+          "prompt": "Trova: Gibuti",
+          "map": "world",
+          "feature": "DJI"
+        },
+        {
+          "id": "geo-DJI-cap",
+          "type": "text",
+          "prompt": "Capitale: Gibuti",
+          "answers": [
+            "Gibuti",
+            "Djibouti"
+          ]
+        },
+        {
+          "id": "geo-DJI-flag",
+          "type": "map",
+          "prompt": "Trova: 🇩🇯",
+          "map": "world",
+          "feature": "DJI",
+          "explanation": "Gibuti"
+        },
+        {
+          "id": "geo-KEN-map",
+          "type": "map",
+          "prompt": "Trova: Kenya",
+          "map": "world",
+          "feature": "KEN"
+        },
+        {
+          "id": "geo-KEN-cap",
+          "type": "text",
+          "prompt": "Capitale: Kenya",
+          "answers": [
+            "Nairobi"
+          ]
+        },
+        {
+          "id": "geo-KEN-flag",
+          "type": "map",
+          "prompt": "Trova: 🇰🇪",
+          "map": "world",
+          "feature": "KEN",
+          "explanation": "Kenya"
+        },
+        {
+          "id": "geo-LSO-map",
+          "type": "map",
+          "prompt": "Trova: Lesotho",
+          "map": "world",
+          "feature": "LSO"
+        },
+        {
+          "id": "geo-LSO-cap",
+          "type": "text",
+          "prompt": "Capitale: Lesotho",
+          "answers": [
+            "Maseru"
+          ]
+        },
+        {
+          "id": "geo-LSO-flag",
+          "type": "map",
+          "prompt": "Trova: 🇱🇸",
+          "map": "world",
+          "feature": "LSO",
+          "explanation": "Lesotho"
+        },
+        {
+          "id": "geo-MDG-map",
+          "type": "map",
+          "prompt": "Trova: Madagascar",
+          "map": "world",
+          "feature": "MDG"
+        },
+        {
+          "id": "geo-MDG-cap",
+          "type": "text",
+          "prompt": "Capitale: Madagascar",
+          "answers": [
+            "Antananarivo"
+          ]
+        },
+        {
+          "id": "geo-MDG-flag",
+          "type": "map",
+          "prompt": "Trova: 🇲🇬",
+          "map": "world",
+          "feature": "MDG",
+          "explanation": "Madagascar"
+        },
+        {
+          "id": "geo-MWI-map",
+          "type": "map",
+          "prompt": "Trova: Malawi",
+          "map": "world",
+          "feature": "MWI"
+        },
+        {
+          "id": "geo-MWI-cap",
+          "type": "text",
+          "prompt": "Capitale: Malawi",
+          "answers": [
+            "Lilongwe"
+          ]
+        },
+        {
+          "id": "geo-MWI-flag",
+          "type": "map",
+          "prompt": "Trova: 🇲🇼",
+          "map": "world",
+          "feature": "MWI",
+          "explanation": "Malawi"
+        },
+        {
+          "id": "geo-MUS-map",
+          "type": "map",
+          "prompt": "Trova: Mauritius",
+          "map": "world",
+          "feature": "MUS"
+        },
+        {
+          "id": "geo-MUS-cap",
+          "type": "text",
+          "prompt": "Capitale: Mauritius",
+          "answers": [
+            "Port Louis",
+            "Port-Louis"
+          ]
+        },
+        {
+          "id": "geo-MUS-flag",
+          "type": "map",
+          "prompt": "Trova: 🇲🇺",
+          "map": "world",
+          "feature": "MUS",
+          "explanation": "Mauritius"
+        },
+        {
+          "id": "geo-MOZ-map",
+          "type": "map",
+          "prompt": "Trova: Mozambico",
+          "map": "world",
+          "feature": "MOZ"
+        },
+        {
+          "id": "geo-MOZ-cap",
+          "type": "text",
+          "prompt": "Capitale: Mozambico",
+          "answers": [
+            "Maputo"
+          ]
+        },
+        {
+          "id": "geo-MOZ-flag",
+          "type": "map",
+          "prompt": "Trova: 🇲🇿",
+          "map": "world",
+          "feature": "MOZ",
+          "explanation": "Mozambico"
+        },
+        {
+          "id": "geo-NAM-map",
+          "type": "map",
+          "prompt": "Trova: Namibia",
+          "map": "world",
+          "feature": "NAM"
+        },
+        {
+          "id": "geo-NAM-cap",
+          "type": "text",
+          "prompt": "Capitale: Namibia",
+          "answers": [
+            "Windhoek"
+          ]
+        },
+        {
+          "id": "geo-NAM-flag",
+          "type": "map",
+          "prompt": "Trova: 🇳🇦",
+          "map": "world",
+          "feature": "NAM",
+          "explanation": "Namibia"
+        },
+        {
+          "id": "geo-RWA-map",
+          "type": "map",
+          "prompt": "Trova: Ruanda",
+          "map": "world",
+          "feature": "RWA"
+        },
+        {
+          "id": "geo-RWA-cap",
+          "type": "text",
+          "prompt": "Capitale: Ruanda",
+          "answers": [
+            "Kigali"
+          ]
+        },
+        {
+          "id": "geo-RWA-flag",
+          "type": "map",
+          "prompt": "Trova: 🇷🇼",
+          "map": "world",
+          "feature": "RWA",
+          "explanation": "Ruanda"
+        },
+        {
+          "id": "geo-SYC-map",
+          "type": "map",
+          "prompt": "Trova: Seychelles",
+          "map": "world",
+          "feature": "SYC"
+        },
+        {
+          "id": "geo-SYC-cap",
+          "type": "text",
+          "prompt": "Capitale: Seychelles",
+          "answers": [
+            "Victoria"
+          ]
+        },
+        {
+          "id": "geo-SYC-flag",
+          "type": "map",
+          "prompt": "Trova: 🇸🇨",
+          "map": "world",
+          "feature": "SYC",
+          "explanation": "Seychelles"
+        },
+        {
+          "id": "geo-SOM-map",
+          "type": "map",
+          "prompt": "Trova: Somalia",
+          "map": "world",
+          "feature": "SOM"
+        },
+        {
+          "id": "geo-SOM-cap",
+          "type": "text",
+          "prompt": "Capitale: Somalia",
+          "answers": [
+            "Mogadiscio",
+            "Mogadishu"
+          ]
+        },
+        {
+          "id": "geo-SOM-flag",
+          "type": "map",
+          "prompt": "Trova: 🇸🇴",
+          "map": "world",
+          "feature": "SOM",
+          "explanation": "Somalia"
+        },
+        {
+          "id": "geo-SSD-map",
+          "type": "map",
+          "prompt": "Trova: Sud Sudan",
+          "map": "world",
+          "feature": "SSD"
+        },
+        {
+          "id": "geo-SSD-cap",
+          "type": "text",
+          "prompt": "Capitale: Sud Sudan",
+          "answers": [
+            "Giuba",
+            "Juba"
+          ]
+        },
+        {
+          "id": "geo-SSD-flag",
+          "type": "map",
+          "prompt": "Trova: 🇸🇸",
+          "map": "world",
+          "feature": "SSD",
+          "explanation": "Sud Sudan"
+        },
+        {
+          "id": "geo-ZAF-map",
+          "type": "map",
+          "prompt": "Trova: Sudafrica",
+          "map": "world",
+          "feature": "ZAF"
+        },
+        {
+          "id": "geo-ZAF-cap",
+          "type": "text",
+          "prompt": "Capitale: Sudafrica",
+          "answers": [
+            "Pretoria",
+            "Città del Capo",
+            "Bloemfontein",
+            "Cape Town"
+          ],
+          "explanation": "Capitali: Pretoria, Città del Capo e Bloemfontein."
+        },
+        {
+          "id": "geo-ZAF-flag",
+          "type": "map",
+          "prompt": "Trova: 🇿🇦",
+          "map": "world",
+          "feature": "ZAF",
+          "explanation": "Sudafrica"
+        },
+        {
+          "id": "geo-TZA-map",
+          "type": "map",
+          "prompt": "Trova: Tanzania",
+          "map": "world",
+          "feature": "TZA"
+        },
+        {
+          "id": "geo-TZA-cap",
+          "type": "text",
+          "prompt": "Capitale: Tanzania",
+          "answers": [
+            "Dodoma"
+          ]
+        },
+        {
+          "id": "geo-TZA-flag",
+          "type": "map",
+          "prompt": "Trova: 🇹🇿",
+          "map": "world",
+          "feature": "TZA",
+          "explanation": "Tanzania"
+        },
+        {
+          "id": "geo-UGA-map",
+          "type": "map",
+          "prompt": "Trova: Uganda",
+          "map": "world",
+          "feature": "UGA"
+        },
+        {
+          "id": "geo-UGA-cap",
+          "type": "text",
+          "prompt": "Capitale: Uganda",
+          "answers": [
+            "Kampala"
+          ]
+        },
+        {
+          "id": "geo-UGA-flag",
+          "type": "map",
+          "prompt": "Trova: 🇺🇬",
+          "map": "world",
+          "feature": "UGA",
+          "explanation": "Uganda"
+        },
+        {
+          "id": "geo-ZMB-map",
+          "type": "map",
+          "prompt": "Trova: Zambia",
+          "map": "world",
+          "feature": "ZMB"
+        },
+        {
+          "id": "geo-ZMB-cap",
+          "type": "text",
+          "prompt": "Capitale: Zambia",
+          "answers": [
+            "Lusaka"
+          ]
+        },
+        {
+          "id": "geo-ZMB-flag",
+          "type": "map",
+          "prompt": "Trova: 🇿🇲",
+          "map": "world",
+          "feature": "ZMB",
+          "explanation": "Zambia"
+        },
+        {
+          "id": "geo-ZWE-map",
+          "type": "map",
+          "prompt": "Trova: Zimbabwe",
+          "map": "world",
+          "feature": "ZWE"
+        },
+        {
+          "id": "geo-ZWE-cap",
+          "type": "text",
+          "prompt": "Capitale: Zimbabwe",
+          "answers": [
+            "Harare"
+          ]
+        },
+        {
+          "id": "geo-ZWE-flag",
+          "type": "map",
+          "prompt": "Trova: 🇿🇼",
+          "map": "world",
+          "feature": "ZWE",
+          "explanation": "Zimbabwe"
+        }
+      ]
+    },
+    {
+      "id": "oceania",
+      "title": "Oceania",
+      "cards": [
+        {
+          "id": "geo-AUS-map",
+          "type": "map",
+          "prompt": "Trova: Australia",
+          "map": "world",
+          "feature": "AUS"
+        },
+        {
+          "id": "geo-AUS-cap",
+          "type": "text",
+          "prompt": "Capitale: Australia",
+          "answers": [
+            "Canberra"
+          ]
+        },
+        {
+          "id": "geo-AUS-flag",
+          "type": "map",
+          "prompt": "Trova: 🇦🇺",
+          "map": "world",
+          "feature": "AUS",
+          "explanation": "Australia"
+        },
+        {
+          "id": "geo-FJI-map",
+          "type": "map",
+          "prompt": "Trova: Figi",
+          "map": "world",
+          "feature": "FJI"
+        },
+        {
+          "id": "geo-FJI-cap",
+          "type": "text",
+          "prompt": "Capitale: Figi",
+          "answers": [
+            "Suva"
+          ]
+        },
+        {
+          "id": "geo-FJI-flag",
+          "type": "map",
+          "prompt": "Trova: 🇫🇯",
+          "map": "world",
+          "feature": "FJI",
+          "explanation": "Figi"
+        },
+        {
+          "id": "geo-MHL-map",
+          "type": "map",
+          "prompt": "Trova: Isole Marshall",
+          "map": "world",
+          "feature": "MHL"
+        },
+        {
+          "id": "geo-MHL-cap",
+          "type": "text",
+          "prompt": "Capitale: Isole Marshall",
+          "answers": [
+            "Majuro"
+          ]
+        },
+        {
+          "id": "geo-MHL-flag",
+          "type": "map",
+          "prompt": "Trova: 🇲🇭",
+          "map": "world",
+          "feature": "MHL",
+          "explanation": "Isole Marshall"
+        },
+        {
+          "id": "geo-SLB-map",
+          "type": "map",
+          "prompt": "Trova: Isole Salomone",
+          "map": "world",
+          "feature": "SLB"
+        },
+        {
+          "id": "geo-SLB-cap",
+          "type": "text",
+          "prompt": "Capitale: Isole Salomone",
+          "answers": [
+            "Honiara"
+          ]
+        },
+        {
+          "id": "geo-SLB-flag",
+          "type": "map",
+          "prompt": "Trova: 🇸🇧",
+          "map": "world",
+          "feature": "SLB",
+          "explanation": "Isole Salomone"
+        },
+        {
+          "id": "geo-KIR-map",
+          "type": "map",
+          "prompt": "Trova: Kiribati",
+          "map": "world",
+          "feature": "KIR"
+        },
+        {
+          "id": "geo-KIR-cap",
+          "type": "text",
+          "prompt": "Capitale: Kiribati",
+          "answers": [
+            "Tarawa Sud",
+            "South Tarawa",
+            "Tarawa"
+          ]
+        },
+        {
+          "id": "geo-KIR-flag",
+          "type": "map",
+          "prompt": "Trova: 🇰🇮",
+          "map": "world",
+          "feature": "KIR",
+          "explanation": "Kiribati"
+        },
+        {
+          "id": "geo-FSM-map",
+          "type": "map",
+          "prompt": "Trova: Micronesia",
+          "map": "world",
+          "feature": "FSM"
+        },
+        {
+          "id": "geo-FSM-cap",
+          "type": "text",
+          "prompt": "Capitale: Micronesia",
+          "answers": [
+            "Palikir"
+          ]
+        },
+        {
+          "id": "geo-FSM-flag",
+          "type": "map",
+          "prompt": "Trova: 🇫🇲",
+          "map": "world",
+          "feature": "FSM",
+          "explanation": "Micronesia"
+        },
+        {
+          "id": "geo-NRU-map",
+          "type": "map",
+          "prompt": "Trova: Nauru",
+          "map": "world",
+          "feature": "NRU"
+        },
+        {
+          "id": "geo-NRU-cap",
+          "type": "text",
+          "prompt": "Capitale: Nauru",
+          "answers": [
+            "Yaren",
+            "Yaren District"
+          ]
+        },
+        {
+          "id": "geo-NRU-flag",
+          "type": "map",
+          "prompt": "Trova: 🇳🇷",
+          "map": "world",
+          "feature": "NRU",
+          "explanation": "Nauru"
+        },
+        {
+          "id": "geo-NZL-map",
+          "type": "map",
+          "prompt": "Trova: Nuova Zelanda",
+          "map": "world",
+          "feature": "NZL"
+        },
+        {
+          "id": "geo-NZL-cap",
+          "type": "text",
+          "prompt": "Capitale: Nuova Zelanda",
+          "answers": [
+            "Wellington"
+          ]
+        },
+        {
+          "id": "geo-NZL-flag",
+          "type": "map",
+          "prompt": "Trova: 🇳🇿",
+          "map": "world",
+          "feature": "NZL",
+          "explanation": "Nuova Zelanda"
+        },
+        {
+          "id": "geo-PLW-map",
+          "type": "map",
+          "prompt": "Trova: Palau",
+          "map": "world",
+          "feature": "PLW"
+        },
+        {
+          "id": "geo-PLW-cap",
+          "type": "text",
+          "prompt": "Capitale: Palau",
+          "answers": [
+            "Ngerulmud"
+          ]
+        },
+        {
+          "id": "geo-PLW-flag",
+          "type": "map",
+          "prompt": "Trova: 🇵🇼",
+          "map": "world",
+          "feature": "PLW",
+          "explanation": "Palau"
+        },
+        {
+          "id": "geo-PNG-map",
+          "type": "map",
+          "prompt": "Trova: Papua Nuova Guinea",
+          "map": "world",
+          "feature": "PNG"
+        },
+        {
+          "id": "geo-PNG-cap",
+          "type": "text",
+          "prompt": "Capitale: Papua Nuova Guinea",
+          "answers": [
+            "Port Moresby"
+          ]
+        },
+        {
+          "id": "geo-PNG-flag",
+          "type": "map",
+          "prompt": "Trova: 🇵🇬",
+          "map": "world",
+          "feature": "PNG",
+          "explanation": "Papua Nuova Guinea"
+        },
+        {
+          "id": "geo-WSM-map",
+          "type": "map",
+          "prompt": "Trova: Samoa",
+          "map": "world",
+          "feature": "WSM"
+        },
+        {
+          "id": "geo-WSM-cap",
+          "type": "text",
+          "prompt": "Capitale: Samoa",
+          "answers": [
+            "Apia"
+          ]
+        },
+        {
+          "id": "geo-WSM-flag",
+          "type": "map",
+          "prompt": "Trova: 🇼🇸",
+          "map": "world",
+          "feature": "WSM",
+          "explanation": "Samoa"
+        },
+        {
+          "id": "geo-TON-map",
+          "type": "map",
+          "prompt": "Trova: Tonga",
+          "map": "world",
+          "feature": "TON"
+        },
+        {
+          "id": "geo-TON-cap",
+          "type": "text",
+          "prompt": "Capitale: Tonga",
+          "answers": [
+            "Nuku'alofa",
+            "Nukualofa"
+          ]
+        },
+        {
+          "id": "geo-TON-flag",
+          "type": "map",
+          "prompt": "Trova: 🇹🇴",
+          "map": "world",
+          "feature": "TON",
+          "explanation": "Tonga"
+        },
+        {
+          "id": "geo-TUV-map",
+          "type": "map",
+          "prompt": "Trova: Tuvalu",
+          "map": "world",
+          "feature": "TUV"
+        },
+        {
+          "id": "geo-TUV-cap",
+          "type": "text",
+          "prompt": "Capitale: Tuvalu",
+          "answers": [
+            "Funafuti"
+          ]
+        },
+        {
+          "id": "geo-TUV-flag",
+          "type": "map",
+          "prompt": "Trova: 🇹🇻",
+          "map": "world",
+          "feature": "TUV",
+          "explanation": "Tuvalu"
+        },
+        {
+          "id": "geo-VUT-map",
+          "type": "map",
+          "prompt": "Trova: Vanuatu",
+          "map": "world",
+          "feature": "VUT"
+        },
+        {
+          "id": "geo-VUT-cap",
+          "type": "text",
+          "prompt": "Capitale: Vanuatu",
+          "answers": [
+            "Port Vila",
+            "Port-Vila"
+          ]
+        },
+        {
+          "id": "geo-VUT-flag",
+          "type": "map",
+          "prompt": "Trova: 🇻🇺",
+          "map": "world",
+          "feature": "VUT",
+          "explanation": "Vanuatu"
+        }
+      ]
+    }
+  ]
+}

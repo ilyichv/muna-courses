@@ -1,0 +1,5 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ilyichv/muna-courses/main/schema/muna.v1.json",
+  "name": "Ilyich's courses",
+  "courses": ["ddia", "geo-world", "geo-italia"]
+}

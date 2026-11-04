@@ -1,0 +1,14 @@
+name: validate
+on: pull_request
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Fetch main for the version checks
+        run: git fetch --depth=1 origin +refs/heads/main:refs/remotes/origin/main
+      - name: Courses
+        run: pipx run scripts/validate.py
+      - name: Validator tests
+        run: pipx run scripts/test_validate.py

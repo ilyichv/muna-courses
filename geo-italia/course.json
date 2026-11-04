@@ -1,0 +1,157 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ilyichv/muna-courses/main/schema/course.v1.json",
+  "id": "geo-italia",
+  "version": "1.0.0",
+  "title": "Regioni d'Italia",
+  "language": "it",
+  "kind": "mastery",
+  "color": "orange",
+  "units": [
+    {
+      "id": "regioni",
+      "title": "Regioni",
+      "cards": [
+        {
+          "id": "geo-it-01-map",
+          "type": "map",
+          "prompt": "Trova: Piemonte",
+          "map": "italy-regions",
+          "feature": "01"
+        },
+        {
+          "id": "geo-it-02-map",
+          "type": "map",
+          "prompt": "Trova: Valle d'Aosta",
+          "map": "italy-regions",
+          "feature": "02"
+        },
+        {
+          "id": "geo-it-03-map",
+          "type": "map",
+          "prompt": "Trova: Lombardia",
+          "map": "italy-regions",
+          "feature": "03"
+        },
+        {
+          "id": "geo-it-04-map",
+          "type": "map",
+          "prompt": "Trova: Trentino-Alto Adige",
+          "map": "italy-regions",
+          "feature": "04"
+        },
+        {
+          "id": "geo-it-05-map",
+          "type": "map",
+          "prompt": "Trova: Veneto",
+          "map": "italy-regions",
+          "feature": "05"
+        },
+        {
+          "id": "geo-it-06-map",
+          "type": "map",
+          "prompt": "Trova: Friuli-Venezia Giulia",
+          "map": "italy-regions",
+          "feature": "06"
+        },
+        {
+          "id": "geo-it-07-map",
+          "type": "map",
+          "prompt": "Trova: Liguria",
+          "map": "italy-regions",
+          "feature": "07"
+        },
+        {
+          "id": "geo-it-08-map",
+          "type": "map",
+          "prompt": "Trova: Emilia-Romagna",
+          "map": "italy-regions",
+          "feature": "08"
+        },
+        {
+          "id": "geo-it-09-map",
+          "type": "map",
+          "prompt": "Trova: Toscana",
+          "map": "italy-regions",
+          "feature": "09"
+        },
+        {
+          "id": "geo-it-10-map",
+          "type": "map",
+          "prompt": "Trova: Umbria",
+          "map": "italy-regions",
+          "feature": "10"
+        },
+        {
+          "id": "geo-it-11-map",
+          "type": "map",
+          "prompt": "Trova: Marche",
+          "map": "italy-regions",
+          "feature": "11"
+        },
+        {
+          "id": "geo-it-12-map",
+          "type": "map",
+          "prompt": "Trova: Lazio",
+          "map": "italy-regions",
+          "feature": "12"
+        },
+        {
+          "id": "geo-it-13-map",
+          "type": "map",
+          "prompt": "Trova: Abruzzo",
+          "map": "italy-regions",
+          "feature": "13"
+        },
+        {
+          "id": "geo-it-14-map",
+          "type": "map",
+          "prompt": "Trova: Molise",
+          "map": "italy-regions",
+          "feature": "14"
+        },
+        {
+          "id": "geo-it-15-map",
+          "type": "map",
+          "prompt": "Trova: Campania",
+          "map": "italy-regions",
+          "feature": "15"
+        },
+        {
+          "id": "geo-it-16-map",
+          "type": "map",
+          "prompt": "Trova: Puglia",
+          "map": "italy-regions",
+          "feature": "16"
+        },
+        {
+          "id": "geo-it-17-map",
+          "type": "map",
+          "prompt": "Trova: Basilicata",
+          "map": "italy-regions",
+          "feature": "17"
+        },
+        {
+          "id": "geo-it-18-map",
+          "type": "map",
+          "prompt": "Trova: Calabria",
+          "map": "italy-regions",
+          "feature": "18"
+        },
+        {
+          "id": "geo-it-19-map",
+          "type": "map",
+          "prompt": "Trova: Sicilia",
+          "map": "italy-regions",
+          "feature": "19"
+        },
+        {
+          "id": "geo-it-20-map",
+          "type": "map",
+          "prompt": "Trova: Sardegna",
+          "map": "italy-regions",
+          "feature": "20"
+        }
+      ]
+    }
+  ]
+}
