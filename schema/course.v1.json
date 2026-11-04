@@ -1,0 +1,241 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/ilyichv/muna-courses/main/schema/course.v1.json",
+  "title": "muna course",
+  "description": "course.json, version 1 of the format: one course, in a folder named after its id.",
+  "type": "object",
+  "required": ["$schema", "id", "version", "title", "language", "kind", "units"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "description": "The format and its version. Must be exactly this URL.",
+      "const": "https://raw.githubusercontent.com/ilyichv/muna-courses/main/schema/course.v1.json"
+    },
+    "id": {
+      "description": "The course ID, the same as its folder name: lowercase letters, digits and dashes.",
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "version": {
+      "description": "This course's version, MAJOR.MINOR.PATCH. Raise it whenever anything in the folder changes: patch for edits, minor for new cards or units, major when a card or unit ID is removed.",
+      "type": "string",
+      "pattern": "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)$"
+    },
+    "title": {
+      "description": "The course title, shown in the app.",
+      "type": "string",
+      "pattern": "\\S"
+    },
+    "language": {
+      "description": "The language of the content, e.g. en or it.",
+      "type": "string",
+      "pattern": "\\S"
+    },
+    "kind": {
+      "description": "mastery: passing a unit's test unlocks the next unit. book: a unit unlocks when the learner marks its chapter as read.",
+      "enum": ["mastery", "book"]
+    },
+    "color": {
+      "description": "Optional. The course's colour in the app. Missing means violet.",
+      "enum": ["violet", "blue", "sky", "teal", "gold", "orange", "pink", "fuchsia"]
+    },
+    "retired": {
+      "description": "Optional. Card and unit IDs removed from this course. It only ever grows, and no card or unit may use an ID in it.",
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "$ref": "#/definitions/cardId" }
+    },
+    "units": {
+      "description": "The units, in learning order.",
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/definitions/unit" }
+    }
+  },
+  "definitions": {
+    "text": {
+      "description": "Text that isn't blank.",
+      "type": "string",
+      "pattern": "\\S"
+    },
+    "cardId": {
+      "description": "A permanent card ID: letters, digits, '.', '_' and '-'. Never renamed or reused, and unique across the whole repo, including every course's retired list.",
+      "type": "string",
+      "pattern": "^[A-Za-z0-9._-]+$"
+    },
+    "prompt": {
+      "description": "The question, as plain text.",
+      "type": "string",
+      "pattern": "\\S"
+    },
+    "explanation": {
+      "description": "Optional. Shown after the answer, whether it was right or wrong.",
+      "type": "string",
+      "pattern": "\\S"
+    },
+    "unit": {
+      "description": "A unit: a chapter, a continent. Its lessons introduce its cards in order.",
+      "type": "object",
+      "required": ["id", "title", "cards"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "description": "A permanent unit ID, unique within the course: lowercase letters, digits and dashes.",
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+        },
+        "title": {
+          "description": "The unit title, shown in the app.",
+          "type": "string",
+          "pattern": "\\S"
+        },
+        "cards": {
+          "description": "The cards, in the order lessons introduce them. Must not end with a learn card.",
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/definitions/card" }
+        }
+      }
+    },
+    "card": {
+      "description": "A card. Its type decides its other fields.",
+      "type": "object",
+      "required": ["id", "type"],
+      "properties": {
+        "id": { "$ref": "#/definitions/cardId" },
+        "type": {
+          "description": "learn: teaches one idea. mcq: multiple choice. recall: answer in your own words, then tick the key points. order: put steps in order. map: tap a shape on a map. text: type the answer.",
+          "enum": ["learn", "mcq", "recall", "order", "map", "text"]
+        }
+      },
+      "allOf": [
+        { "if": { "required": ["type"], "properties": { "type": { "const": "learn" } } }, "then": { "$ref": "#/definitions/learn" } },
+        { "if": { "required": ["type"], "properties": { "type": { "const": "mcq" } } }, "then": { "$ref": "#/definitions/mcq" } },
+        { "if": { "required": ["type"], "properties": { "type": { "const": "recall" } } }, "then": { "$ref": "#/definitions/recall" } },
+        { "if": { "required": ["type"], "properties": { "type": { "const": "order" } } }, "then": { "$ref": "#/definitions/order" } },
+        { "if": { "required": ["type"], "properties": { "type": { "const": "map" } } }, "then": { "$ref": "#/definitions/map" } },
+        { "if": { "required": ["type"], "properties": { "type": { "const": "text" } } }, "then": { "$ref": "#/definitions/text-card" } }
+      ]
+    },
+    "learn": {
+      "description": "Teaches one idea. It comes right before the questions on it and teaches every question after it, up to the next learn card. Not graded or scheduled.",
+      "type": "object",
+      "required": ["id", "type", "title", "body"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "$ref": "#/definitions/cardId" },
+        "type": { "const": "learn" },
+        "title": {
+          "description": "The idea's name.",
+          "type": "string",
+          "pattern": "\\S"
+        },
+        "body": {
+          "description": "Inline Markdown: paragraphs separated by a blank line, **bold**, *italic* and `code`. No lists or headings; links are shown as plain text.",
+          "type": "string",
+          "pattern": "\\S"
+        }
+      }
+    },
+    "mcq": {
+      "description": "Multiple choice, graded automatically.",
+      "type": "object",
+      "required": ["id", "type", "prompt", "choices", "answer"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "$ref": "#/definitions/cardId" },
+        "type": { "const": "mcq" },
+        "prompt": { "$ref": "#/definitions/prompt" },
+        "choices": {
+          "description": "The choices, at least 2, shown in this order.",
+          "type": "array",
+          "minItems": 2,
+          "items": { "$ref": "#/definitions/text" }
+        },
+        "answer": {
+          "description": "The index of the correct choice, counting from 0.",
+          "type": "integer",
+          "minimum": 0
+        },
+        "explanation": { "$ref": "#/definitions/explanation" }
+      }
+    },
+    "recall": {
+      "description": "A why or how question. The learner answers in their own words, then ticks the key points they covered: under half is Again, all of them is Good, anything between is Hard.",
+      "type": "object",
+      "required": ["id", "type", "prompt", "keyPoints"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "$ref": "#/definitions/cardId" },
+        "type": { "const": "recall" },
+        "prompt": { "$ref": "#/definitions/prompt" },
+        "keyPoints": {
+          "description": "The key points of a good answer, at least 1. Each should be a short fact the learner can tick yes or no.",
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/definitions/text" }
+        },
+        "explanation": { "$ref": "#/definitions/explanation" }
+      }
+    },
+    "order": {
+      "description": "Put the items in order, graded automatically.",
+      "type": "object",
+      "required": ["id", "type", "prompt", "items"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "$ref": "#/definitions/cardId" },
+        "type": { "const": "order" },
+        "prompt": { "$ref": "#/definitions/prompt" },
+        "items": {
+          "description": "At least 2 distinct items, stored in the correct order. The app shuffles them.",
+          "type": "array",
+          "minItems": 2,
+          "uniqueItems": true,
+          "items": { "$ref": "#/definitions/text" }
+        },
+        "explanation": { "$ref": "#/definitions/explanation" }
+      }
+    },
+    "map": {
+      "description": "Tap the right shape on a map, graded automatically.",
+      "type": "object",
+      "required": ["id", "type", "prompt", "map", "feature"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "$ref": "#/definitions/cardId" },
+        "type": { "const": "map" },
+        "prompt": { "$ref": "#/definitions/prompt" },
+        "map": {
+          "description": "A GeoJSON file in this course's folder, without the extension: \"world\" means world.geojson next to course.json.",
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+        },
+        "feature": {
+          "description": "The properties.id of the shape to tap. It must be in the map, and not marked \"quizzable\": false.",
+          "type": "string",
+          "pattern": "\\S"
+        },
+        "explanation": { "$ref": "#/definitions/explanation" }
+      }
+    },
+    "text-card": {
+      "description": "Type the answer, graded automatically. Case and accents are ignored.",
+      "type": "object",
+      "required": ["id", "type", "prompt", "answers"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "$ref": "#/definitions/cardId" },
+        "type": { "const": "text" },
+        "prompt": { "$ref": "#/definitions/prompt" },
+        "answers": {
+          "description": "Every accepted answer, at least 1, e.g. other spellings.",
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/definitions/text" }
+        },
+        "explanation": { "$ref": "#/definitions/explanation" }
+      }
+    }
+  }
+}
