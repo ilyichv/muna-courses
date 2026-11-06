@@ -16,6 +16,21 @@ Courses for [muna](https://github.com/ilyichv/muna), a spaced-repetition iPhone 
 
 A course is a folder of JSON in any public repo or HTTPS location. Anyone can publish one, and muna adds it from a pasted link. There's no catalog and no sign-up.
 
+## Writing with an agent
+The `muna` plugin writes courses with you in [Claude Code](https://claude.com/claude-code) or [Codex](https://developers.openai.com/codex). Install it:
+
+```sh
+# Claude Code
+/plugin marketplace add ilyichv/muna-courses
+/plugin install muna@muna-courses
+
+# Codex
+codex plugin marketplace add ilyichv/muna-courses
+codex plugin add muna@muna-courses
+```
+
+Then, in an empty folder, run its four skills in order: `/muna:new Roman history` plans the course, `/muna:write` writes one unit at a time, `/muna:review` checks the cards in a new session, and `/muna:publish` puts the repo on GitHub and gives you the link to paste into muna. In Codex, type `$muna:new` and so on.
+
 ## Layout
 ```
 your-repo/
