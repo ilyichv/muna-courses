@@ -1,0 +1,8 @@
+{
+  "name": "muna",
+  "version": "1.0.0",
+  "description": "Write, review and publish muna courses: /muna:new, /muna:write, /muna:review and /muna:publish.",
+  "author": {
+    "name": "Ilyich Vismara"
+  }
+}

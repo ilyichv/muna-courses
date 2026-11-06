@@ -1,0 +1,14 @@
+{
+  "name": "muna-courses",
+  "description": "The muna plugin: write, review and publish courses for muna.",
+  "owner": {
+    "name": "Ilyich Vismara"
+  },
+  "plugins": [
+    {
+      "name": "muna",
+      "source": "./plugin",
+      "description": "Write, review and publish muna courses."
+    }
+  ]
+}
