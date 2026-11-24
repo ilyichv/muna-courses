@@ -39,6 +39,21 @@ Unit titles are the book's chapter titles, verbatim.
 - Learn cards: `<course>-<unit>-t<nn>`, e.g. `ddia-ch01-t03`, numbered from `t01` in file order within each unit.
 - A card added later goes where it fits in the array but takes the next unused number.
 
+# LLM course
+*How LLMs work* (`llm`) teaches itself like DDIA: a `mastery` course whose learn cards explain everything its questions test. `llm/README.md` lists its units and sources.
+
+## Audience
+A programmer who wants to train and fine-tune LLMs, with no neural-net background and rusty linear algebra.
+- Teach every math idea before a card uses it, with numbers small enough to work out in your head.
+- Tie each math idea to where LLMs use it: the dot product to embedding similarity, the chain rule to backpropagation.
+
+## Size and mix
+- **15–30 questions per unit, by density,** about 20 on average: light units (data, evaluation) near 15, dense ones (matrices, backprop, attention, transformer) near 30. Plus the learn cards that teach them.
+- **About 45% `mcq`, 30% `recall`, 15% `text`, 10% `order`.** `text` cards are small calculations (a dot product, a shape, a parameter count) and list every accepted spelling: `3x2`, `3 x 2`, `3×2`.
+
+## IDs
+The book course patterns, with the unit IDs from `llm/README.md`: `llm-vectors-001`, `llm-vectors-t01`.
+
 # Geography courses
 - Card IDs are `geo-<code>-<type>`: `geo-PER-map`, `geo-PER-cap`, `geo-PER-flag` (ISO 3166-1 alpha-3), and `geo-it-09-map` (ISTAT region code).
 - IDs come only from those codes, never from the unit, so moving a country to another unit keeps its progress.

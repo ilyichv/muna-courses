@@ -23,5 +23,5 @@ uv run scripts/test_validate.py                      # validator tests
 ## Commits
 [Conventional Commits](https://www.conventionalcommits.org): `type(scope): summary`, lowercase, imperative, no period. PR titles use the same format.
 - Types: `feat`, `fix`, `test`, `refactor`, `docs`, `chore`, `ci`, `build`.
-- Scope is a course folder (`ddia`, `geo-world`, `geo-italia`), or `schema`, `scripts`, `plugin`, `ci`, `docs`. Omit it when a commit spans several areas.
+- Scope is a course folder (`ddia`, `geo-world`, `geo-italia`, `llm`), or `schema`, `scripts`, `plugin`, `ci`, `docs`. Omit it when a commit spans several areas.
 - Examples: `feat(ddia): add chapter 2 learn cards`, `fix(geo-world): accept "Mexico City" for geo-MEX-cap`, `fix(scripts): skip version checks outside git`.
